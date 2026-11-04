@@ -23,7 +23,7 @@ def ask(prompt: str, system: str = "", tier: str = "fast", max_tokens: int = 400
         r = anthropic.Anthropic().messages.create(
             model=MODELS[tier], max_tokens=max_tokens, system=system or anthropic.NOT_GIVEN,
             messages=[{"role": "user", "content": prompt}])
-        return r.content[0].text
+        return "".join(b.text for b in r.content if b.type == "text")  # puede venir un bloque de thinking antes
     full = (system + "\n\n" if system else "") + prompt
     r = subprocess.run([CLAUDE_BIN, "-p", full, "--model", CLI_MODELS[tier], "--output-format", "text"],
                        capture_output=True, text=True, timeout=180, cwd=tempfile.gettempdir())

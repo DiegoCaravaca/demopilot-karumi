@@ -63,7 +63,7 @@
   .dots { display:flex; gap:6px; } .dots i { width:11px; height:11px; border-radius:50%; background:#e2e8f0; }
   #url { flex:1; font-size:12px; color:var(--mute); background:#f1f5f9; padding:6px 12px; border-radius:8px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   #view { flex:1; position:relative; background:#fff; min-height:0; overflow:hidden; }
-  #shot { width:100%; height:100%; object-fit:contain; object-position:top; transition:opacity .3s, filter .3s; }
+  #shot { cursor:pointer; width:100%; height:100%; object-fit:contain; object-position:top; transition:opacity .3s, filter .3s; }
   #view.busy #shot { opacity:.45; filter:blur(1px); }
   #loader { position:absolute; inset:0; display:none; align-items:center; justify-content:center; }
   #view.busy #loader { display:flex; }
@@ -109,7 +109,7 @@
   <section class="card">
     <div class="title">Guía</div>
     <div id="msgs"></div>
-    <form id="composer"><input id="input" placeholder="Escribe: «soy de ventas», «enséñame precios», «sigue»…" autocomplete="off"><button class="primary">Enviar</button></form>
+    <form id="composer"><input id="input" placeholder="«soy de ventas», «sigue», «pincha en …» o clica en la web" autocomplete="off"><button class="primary">Enviar</button></form>
   </section>
   <section class="card">
     <div class="chrome"><div class="dots"><i></i><i></i><i></i></div><div id="url">—</div></div>
@@ -251,6 +251,7 @@ async function run(call, { quiet = false } = {}) {
   try {
     const s = await call();
     if (s.reply) addMsg(esc(s.reply));
+    if (s.clicked) addMsg(`🖱 Pulsado «${esc(s.clicked)}»${s.off_map ? ' · página fuera del mapa' : ''}`, 'sys');
     if (s.step) { await animatePath(s.step.path); }
     renderPage(s); renderInsight(s);
     if (s.step) stepMsg(s.step);
@@ -288,6 +289,14 @@ async function start() {
   }
 }
 $('restart').onclick = start;
+// clic directo sobre la captura -> clic real en la web (coordenadas relativas, object-fit: contain + top)
+$('shot').onclick = e => {
+  const img = $('shot'), r = img.getBoundingClientRect(), nw = img.naturalWidth, nh = img.naturalHeight;
+  const k = Math.min(r.width / nw, r.height / nh), w = nw * k, h = nh * k, ox = (r.width - w) / 2;
+  const x = (e.clientX - r.left - ox) / w, y = (e.clientY - r.top) / h;
+  if (x < 0 || x > 1 || y < 0 || y > 1) return;
+  setAuto(false); run(() => api('/api/click', { x, y }));
+};
 
 (async () => {
   G = await api('/api/graph'); W = G.weights; $('siteName').textContent = '· ' + G.meta.name;
