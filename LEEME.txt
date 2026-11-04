@@ -1,0 +1,17 @@
+DemoPilot - Karumi x Comillas (Track 2)
+
+Instalar:
+  python3 -m venv .venv
+  .venv/bin/pip install -r requirements.txt
+  .venv/bin/playwright install chromium
+  (opcional) crear .env con: ANTHROPIC_API_KEY=sk-ant-...
+
+Arrancar (abrir http://localhost:8000):
+  SITE=karumi LIVE=1 .venv/bin/uvicorn app:app --port 8000
+  SITE=orangehrm_auto LIVE=1 ...   (otra web, mismo codigo)
+  LIVE=0  -> sin internet, usa capturas cacheadas
+
+Web nueva: anadirla a sites.json y
+  .venv/bin/python crawler.py <site> [--clicks] && .venv/bin/python enrich.py <site>
+
+Resumen para el equipo / pitch: RESUMEN.html

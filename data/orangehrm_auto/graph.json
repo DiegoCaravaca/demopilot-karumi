@@ -1,0 +1,895 @@
+{
+ "site": "orangehrm_auto",
+ "root": "/web/index.php/dashboard/index",
+ "nodes": [
+  {
+   "id": "/web/index.php/dashboard/index",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+   "label": "Inicio",
+   "title": "OrangeHRM",
+   "h1": "Dashboard",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz Dashboard Upgrade John Doe Time at Work Punched In Punched In: Today at 06:06 PM (GMT 5.5) 0h 8m Today This Week Nov 02 - Nov 08 0h 0m My Actions (1) Pending Self Review Quick Launch Assign Leave Leave List Timesheets Apply Leave My Leave My Timesheet Buzz Latest Posts John Mike Doe 2026-04-11 01:26 PM <script>window.__xss=1</script> John Mike Doe 2026-04-11 01:26 PM QA What's on your mind? 1793795147718 Employees on Leave Today No Employees are on Leave Today Employee Distribution by Sub Unit Client Services Engineering Human Resources Administration Unassigned Employee Distribution by Location T",
+   "depth": 0,
+   "nav_pos": 0,
+   "in_nav": true,
+   "rich": {
+    "charts": 21,
+    "tables": 0,
+    "images": 7,
+    "inputs": 1
+   },
+   "shot": "shots/web_index_php_dashboard_index.png",
+   "global": false,
+   "prior": 0.85,
+   "wow": 0.7,
+   "tags": [
+    "dashboard",
+    "panel",
+    "fichaje",
+    "time at work",
+    "acciones pendientes",
+    "quick launch",
+    "empleado",
+    "productividad"
+   ],
+   "desc": "Panel principal con el tiempo trabajado, acciones pendientes y accesos rápidos a tareas frecuentes.",
+   "name": "Panel de inicio",
+   "wow_why": "Resumen visual de fichaje, acciones pendientes y accesos rápidos",
+   "pitch": "Este es el punto de partida de cada empleado: ves de un vistazo tu fichaje de hoy, las horas de la semana y tus acciones pendientes, como una autoevaluación. Con los accesos rápidos asignas ausencias o abres partes de horas en un clic."
+  },
+  {
+   "id": "/web/index.php/admin/viewSystemUsers",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+   "label": "Admin",
+   "title": "OrangeHRM",
+   "h1": "Admin\nUser Management",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz Admin User Management Upgrade John Doe User Management Job Organization Qualifications Nationalities Corporate Branding Configuration System Users Username User Role -- Select -- Employee Name Status -- Select -- Reset Search Add (45) Records Found Username User Role Employee Name Status Actions Abebe ESS Peter Anderson Enabled Admin Admin John Doe Enabled dsawdsadwd ESS as as Enabled FMLName ESS Qwerty LName Enabled FMLName1 ESS FName LName Enabled gia thanh ESS Gia Thanh Enabled giathanh2026 ESS Gia Thanh Enabled giathanh_qa01 ESS Gia Thanh Enabled Jobinsam@6742 ESS Jobin Sam Enabled ksenia.kuz4",
+   "depth": 1,
+   "nav_pos": 0,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 577,
+    "images": 3,
+    "inputs": 49
+   },
+   "shot": "shots/web_index_php_admin_viewSystemUsers.png",
+   "global": false,
+   "prior": 0.75,
+   "wow": 0.45,
+   "tags": [
+    "admin",
+    "usuarios",
+    "user management",
+    "roles",
+    "permisos",
+    "configuración",
+    "seguridad",
+    "it"
+   ],
+   "desc": "Gestión de usuarios del sistema con filtros por rol y estado, más organización, puestos y configuración.",
+   "name": "Administración",
+   "wow_why": "Configuración útil pero poco visual, orientada a administradores",
+   "pitch": "Aquí el administrador controla quién accede al sistema: tenemos 45 usuarios y puedes filtrar por rol, empleado o estado. También se configuran puestos, estructura de organización, cualificaciones y marca corporativa."
+  },
+  {
+   "id": "/web/index.php/pim/viewEmployeeList",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+   "label": "PIM",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz PIM Upgrade John Doe Configuration Employee List Add Employee Reports Employee Information Employee Name Employee Id Employment Status -- Select -- Include Current Employees Only Supervisor Name Job Title -- Select -- Sub Unit -- Select -- Reset Search Add (206) Records Found Id First (& Middle) Name Last Name Job Title Employment Status Sub Unit Supervisor Actions 0408 Kazuchika Kota Okada 0461 Kazuchika Kota Okada dfgsjsjdh 123445 34 444444 0295 99N75 425 5TlV 0312 A8DCo 4Ys 010Z 0550 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA Thanh 0515 Aditi Test 0555 Aditi Test 01715 Amelia Brown 0360 aniket t t 230 anik",
+   "depth": 1,
+   "nav_pos": 1,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 804,
+    "images": 3,
+    "inputs": 55
+   },
+   "shot": "shots/web_index_php_pim_viewEmployeeList.png",
+   "global": false,
+   "prior": 0.721,
+   "wow": 0.75,
+   "tags": [
+    "pim",
+    "empleados",
+    "employee list",
+    "base de datos",
+    "organigrama",
+    "rrhh",
+    "informes",
+    "hr"
+   ],
+   "desc": "Listado de empleados con búsqueda por nombre, ID, estado, supervisor, puesto y unidad.",
+   "name": "Lista empleados",
+   "wow_why": "Base de datos central de empleados con filtros potentes",
+   "pitch": "El PIM es el corazón del sistema: toda la información de tu plantilla en un solo lugar. Filtras por supervisor, puesto, unidad o estado de empleo y localizas a cualquier persona en segundos."
+  },
+  {
+   "id": "/web/index.php/leave/viewLeaveList",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+   "label": "Leave",
+   "title": "OrangeHRM",
+   "h1": "Leave",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz Leave Upgrade John Doe Apply My Leave Entitlements Reports Configure Leave List Assign Leave Leave List From Date To Date Show Leave with Status -- Select -- Pending Approval Leave Type -- Select -- Employee Name Sub Unit -- Select -- Include Past Employees * Required Reset Search No Records Found Date Employee Name Leave Type Leave Balance (Days) Number of Days Status Comments Actions OrangeHRM OS 5.9 © 2005 - 2026 OrangeHRM, Inc. All rights reserved. Info No Records Found ×",
+   "depth": 1,
+   "nav_pos": 2,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 19,
+    "images": 3,
+    "inputs": 6
+   },
+   "shot": "shots/web_index_php_leave_viewLeaveList.png",
+   "global": false,
+   "prior": 0.692,
+   "wow": 0.8,
+   "tags": [
+    "leave",
+    "vacaciones",
+    "ausencias",
+    "aprobaciones",
+    "entitlements",
+    "absence management",
+    "manager",
+    "hr"
+   ],
+   "desc": "Lista de ausencias con filtros por fechas, estado, tipo de permiso y empleado.",
+   "name": "Ausencias",
+   "wow_why": "Flujo claro de aprobación de vacaciones y permisos",
+   "pitch": "Aquí gestionas vacaciones y permisos: filtras por estado, como pendientes de aprobación, tipo de ausencia o departamento. Puedes asignar ausencias, consultar derechos y sacar informes."
+  },
+  {
+   "id": "/web/index.php/time/viewEmployeeTimesheet",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+   "label": "Time",
+   "title": "OrangeHRM",
+   "h1": "Time\nTimesheets",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz Time Timesheets Upgrade John Doe Timesheets Attendance Reports Project Info Select Employee Employee Name * Required View Timesheets Pending Action (3) Records Found Employee Name Timesheet Period Actions John Mike Doe 2023-16-01 - 2023-22-01 View John Mike Doe 2022-15-08 - 2022-21-08 View John Mike Doe 2020-14-09 - 2020-20-09 View OrangeHRM OS 5.9 © 2005 - 2026 OrangeHRM, Inc. All rights reserved. ",
+   "depth": 1,
+   "nav_pos": 3,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 28,
+    "images": 3,
+    "inputs": 2
+   },
+   "shot": "shots/web_index_php_time_viewEmployeeTimesheet.png",
+   "global": false,
+   "prior": 0.662,
+   "wow": 0.7,
+   "tags": [
+    "time",
+    "timesheet",
+    "horas",
+    "asistencia",
+    "attendance",
+    "proyectos",
+    "aprobación",
+    "payroll"
+   ],
+   "desc": "Pantalla de partes de horas de empleados con timesheets pendientes de acción.",
+   "name": "Partes de horas",
+   "wow_why": "Aprobación de timesheets pendientes con datos reales",
+   "pitch": "Aquí el responsable revisa los partes de horas: ahora hay 3 pendientes de acción, con su periodo y un botón para verlos. Además hay asistencia, informes e información de proyectos."
+  },
+  {
+   "id": "/web/index.php/recruitment/viewCandidates",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+   "label": "Recruitment",
+   "title": "OrangeHRM",
+   "h1": "Recruitment",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz Recruitment Upgrade John Doe Candidates Vacancies Candidates Job Title -- Select -- Vacancy -- Select -- Hiring Manager -- Select -- Status -- Select -- Candidate Name Keywords Date of Application Method of Application -- Select -- Reset Search Add (33) Records Found Vacancy Candidate Hiring Manager Date of Application Status Actions AutoCandidate1793796024576 Test User (Deleted) 2026-04-11 ResumeCandidate1793796038555 Test User (Deleted) 2026-04-11 SearchCandidate1793796075675 Test User (Deleted) 2026-04-11 ProfileCandidate1793796094642 Test User (Deleted) 2026-04-11 Automation Workflow Vacancy 1",
+   "depth": 1,
+   "nav_pos": 4,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 490,
+    "images": 3,
+    "inputs": 39
+   },
+   "shot": "shots/web_index_php_recruitment_viewCandidates.png",
+   "global": false,
+   "prior": 0.633,
+   "wow": 0.85,
+   "tags": [
+    "recruitment",
+    "reclutamiento",
+    "candidatos",
+    "ats",
+    "vacantes",
+    "hiring",
+    "selección",
+    "talent"
+   ],
+   "desc": "Listado de candidatos con filtros por vacante, puesto, responsable, estado y fecha de solicitud.",
+   "name": "Candidatos",
+   "wow_why": "Embudo de selección con 33 candidatos reales y filtros",
+   "pitch": "Este es tu seguimiento de selección: hay 33 candidatos que filtras por vacante, hiring manager, estado o método de solicitud. Pasas de la candidatura a la contratación sin salir de la herramienta."
+  },
+  {
+   "id": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+   "label": "My Info",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz PIM Upgrade John Doe John Doe Personal Details Contact Details Emergency Contacts Dependents Immigration Job Salary Report-to Qualifications Memberships Personal Details Employee Full Name Employee Id Other Id Driver's License Number License Expiry Date Nationality American Marital Status Single Date of Birth Gender Male Female * Required Save Custom Fields Blood Type A+ Test_Field Save Attachments Add (1) Record Found File Name Description Size Type Date Added Added By Actions test.png test 53.16 kB image/png 2024-06-02 Admin OrangeHRM OS 5.9 © 2005 - 2026 OrangeHRM, Inc. All rights reserved. ",
+   "depth": 1,
+   "nav_pos": 5,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 27,
+    "images": 4,
+    "inputs": 14
+   },
+   "shot": "shots/web_index_php_pim_viewPersonalDetails_empNumber_id.png",
+   "global": false,
+   "prior": 0.604,
+   "wow": 0.6,
+   "tags": [
+    "my info",
+    "ficha empleado",
+    "datos personales",
+    "autoservicio",
+    "self-service",
+    "perfil",
+    "personal details",
+    "hr"
+   ],
+   "desc": "Ficha personal del empleado con datos personales y pestañas de contacto, empleo y cualificaciones.",
+   "name": "Mi información",
+   "wow_why": "Ficha completa del empleado, útil pero estándar",
+   "pitch": "Cada empleado tiene su ficha completa con datos personales, contacto, inmigración, puesto, salario y cualificaciones. Se actualiza en autoservicio y RR. HH. mantiene todo centralizado."
+  },
+  {
+   "id": "/web/index.php/performance/searchEvaluatePerformanceReview",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+   "label": "Performance",
+   "title": "OrangeHRM",
+   "h1": "Performance\nManage Reviews",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz Performance Manage Reviews Upgrade John Doe Configure Manage Reviews My Trackers Employee Trackers Employee Reviews Employee Name Job Title -- Select -- Sub Unit -- Select -- Include Current Employees Only Review Status -- Select -- From Date To Date Reset Search No Records Found Employee Job Title Sub Unit Review Period Due Date Review Status Actions OrangeHRM OS 5.9 © 2005 - 2026 OrangeHRM, Inc. All rights reserved. Info No Records Found ×",
+   "depth": 1,
+   "nav_pos": 6,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 37,
+    "images": 3,
+    "inputs": 4
+   },
+   "shot": "shots/web_index_php_performance_searchEvaluatePerformanceReview.png",
+   "global": false,
+   "prior": 0.575,
+   "wow": 0.75,
+   "tags": [
+    "performance",
+    "desempeño",
+    "evaluaciones",
+    "reviews",
+    "trackers",
+    "objetivos",
+    "talento",
+    "manager"
+   ],
+   "desc": "Búsqueda de evaluaciones de desempeño por empleado, puesto, unidad, estado y fechas.",
+   "name": "Desempeño",
+   "wow_why": "Evaluaciones y seguimiento de objetivos por empleado",
+   "pitch": "Aquí sigues las evaluaciones de desempeño de tu equipo: filtras por unidad, puesto o estado de la revisión. Con los trackers haces seguimiento continuo de objetivos."
+  },
+  {
+   "id": "/web/index.php/directory/viewDirectory",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+   "label": "Directory",
+   "title": "OrangeHRM",
+   "h1": "Directory",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz Directory Upgrade John Doe Directory Employee Name Job Title -- Select -- Location -- Select -- Reset Search (205) Records Found Kazuchika Kota Okada PT_User 001 PT_User 001 PT_User 001 PT_User 001 PT_User 001 A8DCo 4Ys 010Z PT_User 200 HR Associate Technical Support PT_User 27 HR Associate Technical Support PT_User 344 HR Associate Technical Support ptuser 432 123445 34 444444 PT_User 456 HR Associate Technical Support 99N75 425 5TlV OrangeHRM OS 5.9 © 2005 - 2026 OrangeHRM, Inc. All rights reserved. ",
+   "depth": 1,
+   "nav_pos": 8,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 6,
+    "images": 17,
+    "inputs": 2
+   },
+   "shot": "shots/web_index_php_directory_viewDirectory.png",
+   "global": true,
+   "prior": 0.667,
+   "wow": 0.8,
+   "tags": [
+    "directory",
+    "directorio",
+    "empleados",
+    "búsqueda",
+    "contactos",
+    "organización",
+    "cultura",
+    "intranet"
+   ],
+   "desc": "Directorio de empleados con búsqueda por nombre, puesto y ubicación.",
+   "name": "Directorio",
+   "wow_why": "205 empleados buscables, tipo agenda corporativa",
+   "pitch": "Un directorio corporativo con 205 personas que localizas por nombre, puesto o ubicación. Ideal para que cualquier empleado encuentre rápido a quién necesita."
+  },
+  {
+   "id": "/web/index.php/maintenance/purgeEmployee",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+   "label": "Maintenance",
+   "title": "OrangeHRM",
+   "h1": "Administrator Access",
+   "headings": [],
+   "text": "Administrator Access You have requested to access a critical Administrator function in OrangeHRM and are required to validate your credentials below Username Password Cancel Confirm OrangeHRM OS 5.9 © 2005 - 2026 OrangeHRM, Inc. All rights reserved.",
+   "depth": 1,
+   "nav_pos": 9,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 0,
+    "images": 0,
+    "inputs": 3
+   },
+   "shot": "shots/web_index_php_maintenance_purgeEmployee.png",
+   "global": false,
+   "prior": 0.195,
+   "wow": 0.15,
+   "tags": [
+    "maintenance",
+    "mantenimiento",
+    "purge",
+    "admin",
+    "seguridad",
+    "credenciales",
+    "gdpr",
+    "datos"
+   ],
+   "desc": "Pantalla de verificación de credenciales para acceder a funciones críticas de administración.",
+   "name": "Mantenimiento",
+   "wow_why": "Solo pide credenciales de administrador, sin contenido que mostrar",
+   "pitch": "Esta zona está protegida con una validación extra de credenciales para operaciones críticas, como depurar datos de empleados. No la abriremos en la demo."
+  },
+  {
+   "id": "/web/index.php/claim/viewAssignClaim",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+   "label": "Claim",
+   "title": "OrangeHRM",
+   "h1": "Claim",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz Claim Upgrade John Doe Configuration Submit Claim My Claims Employee Claims Assign Claim Employee Claims Employee Name Reference Id Event Name -- Select -- Status -- Select -- From Date To Date Include Current Employees Only Reset Search Assign Claim (3) Records Found Reference Id Employee Name Event Name Description Currency Submitted Date Status Amount Actions 202307180000003 John Doe Travel Allowance Algerian Dinar 2023-18-07 Submitted 7,300.32 View Details 202307180000002 John Doe Medical Reimbursement Canadian Dollar 2023-18-07 Submitted 1,250.12 View Details 202307180000001 John Doe Accommod",
+   "depth": 1,
+   "nav_pos": 10,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 89,
+    "images": 3,
+    "inputs": 5
+   },
+   "shot": "shots/web_index_php_claim_viewAssignClaim.png",
+   "global": false,
+   "prior": 0.47,
+   "wow": 0.6,
+   "tags": [
+    "claim",
+    "reembolsos",
+    "gastos",
+    "expenses",
+    "eventos",
+    "aprobaciones",
+    "finanzas",
+    "employee claims"
+   ],
+   "desc": "Gestión de reclamaciones de gastos de empleados con filtros por evento, estado y fechas.",
+   "name": "Reembolsos",
+   "wow_why": "Gestión de gastos útil, pero formulario sencillo",
+   "pitch": "Los empleados envían sus gastos y tú los revisas aquí, filtrando por evento, estado o fechas. También puedes asignar una reclamación en nombre de otra persona."
+  },
+  {
+   "id": "/web/index.php/buzz/viewBuzz",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+   "label": "Buzz",
+   "title": "OrangeHRM",
+   "h1": "Buzz",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz Buzz Upgrade John Doe Buzz Newsfeed Post Share Photos Share Video Most Recent Posts Most Liked Posts Most Commented Posts John Mike Doe 2026-04-11 01:26 PM <script>window.__xss=1</script> 0 Likes 0 Comments ‚ 0 Shares John Mike Doe 2026-04-11 01:26 PM QA What's on your mind? 1793795147718 0 Likes 0 Comments ‚ 0 Shares Upcoming Anniversaries Peter Anderson Chief Financial Officer 35 Years Nov 13 OrangeHRM OS 5.9 © 2005 - 2026 OrangeHRM, Inc. All rights reserved. ",
+   "depth": 1,
+   "nav_pos": 11,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 0,
+    "images": 9,
+    "inputs": 2
+   },
+   "shot": "shots/web_index_php_buzz_viewBuzz.png",
+   "global": true,
+   "prior": 0.62,
+   "wow": 0.7,
+   "tags": [
+    "buzz",
+    "comunicación",
+    "red social",
+    "newsfeed",
+    "cultura",
+    "engagement",
+    "publicaciones",
+    "empleados"
+   ],
+   "desc": "Muro social interno para publicar mensajes, fotos y vídeos, con likes y comentarios.",
+   "name": "Buzz",
+   "wow_why": "Red social interna con publicaciones, fotos y vídeos",
+   "pitch": "Buzz es el muro social de la empresa: los empleados publican, comparten fotos y vídeos, y reaccionan con likes y comentarios. Ayuda a mantener la cultura y la comunicación interna."
+  },
+  {
+   "id": "/web/index.php/pim/contactDetails/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+   "label": "Contact Details",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz PIM Upgrade John Doe John Doe Personal Details Contact Details Emergency Contacts Dependents Immigration Job Salary Report-to Qualifications Memberships Contact Details Address Street 1 Street 2 City State/Province Zip/Postal Code Country -- Select -- Telephone Home Mobile Work Email Work Email Other Email * Required Save Attachments Add No Records Found File Name Description Size Type Date Added Added By Actions OrangeHRM OS 5.9 © 2005 - 2026 OrangeHRM, Inc. All rights reserved. ",
+   "depth": 2,
+   "nav_pos": 13,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 12,
+    "images": 4,
+    "inputs": 12
+   },
+   "shot": "shots/web_index_php_pim_contactDetails_empNumber_id.png",
+   "global": false,
+   "prior": 0.118,
+   "wow": 0.3,
+   "tags": [
+    "contacto",
+    "contact details",
+    "dirección",
+    "teléfono",
+    "email",
+    "pim",
+    "ficha empleado",
+    "datos"
+   ],
+   "desc": "Formulario con dirección, teléfonos y correo de contacto del empleado.",
+   "name": "Contacto",
+   "wow_why": "Formulario de dirección y teléfonos, poco llamativo",
+   "pitch": "En esta pestaña se guardan la dirección, los teléfonos y los correos del empleado, siempre actualizados y a mano para RR. HH."
+  },
+  {
+   "id": "/web/index.php/pim/viewEmergencyContacts/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+   "label": "Emergency Contacts",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz PIM Upgrade John Doe John Doe Personal Details Contact Details Emergency Contacts Dependents Immigration Job Salary Report-to Qualifications Memberships Assigned Emergency Contacts Add No Records Found Name Relationship Home Telephone Mobile Work Telephone Actions Attachments Add No Records Found File Name Description Size Type Date Added Added By Actions OrangeHRM OS 5.9 © 2005 - 2026 OrangeHRM, Inc. All rights reserved. ",
+   "depth": 2,
+   "nav_pos": 14,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 23,
+    "images": 4,
+    "inputs": 3
+   },
+   "shot": "shots/web_index_php_pim_viewEmergencyContacts_empNumber_id.png",
+   "global": false,
+   "prior": 0.118,
+   "wow": 0.25,
+   "tags": [
+    "emergency contacts",
+    "emergencias",
+    "contactos",
+    "seguridad",
+    "bienestar",
+    "pim",
+    "duty of care",
+    "hr"
+   ],
+   "desc": "Lista de contactos de emergencia asignados al empleado, vacía en este caso.",
+   "name": "Emergencias",
+   "wow_why": "Lista vacía de contactos de emergencia",
+   "pitch": "Aquí se registran los contactos de emergencia con su relación y teléfonos, para actuar rápido si ocurre algo."
+  },
+  {
+   "id": "/web/index.php/pim/viewDependents/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+   "label": "Dependents",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz PIM Upgrade John Doe John Doe Personal Details Contact Details Emergency Contacts Dependents Immigration Job Salary Report-to Qualifications Memberships Assigned Dependents Add No Records Found Name Relationship Date of Birth Actions Attachments Add No Records Found File Name Description Size Type Date Added Added By Actions OrangeHRM OS 5.9 © 2005 - 2026 OrangeHRM, Inc. All rights reserved. ",
+   "depth": 2,
+   "nav_pos": 15,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 21,
+    "images": 4,
+    "inputs": 3
+   },
+   "shot": "shots/web_index_php_pim_viewDependents_empNumber_id.png",
+   "global": false,
+   "prior": 0.295,
+   "wow": 0.2,
+   "tags": [
+    "dependents",
+    "dependientes",
+    "familia",
+    "beneficios",
+    "pim",
+    "ficha empleado",
+    "seguros",
+    "hr"
+   ],
+   "desc": "Registro de dependientes del empleado con relación y fecha de nacimiento.",
+   "name": "Dependientes",
+   "wow_why": "Lista vacía de familiares, poco que enseñar",
+   "pitch": "Se guardan los familiares dependientes del empleado, útil para gestionar beneficios y seguros."
+  },
+  {
+   "id": "/web/index.php/pim/viewImmigration/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+   "label": "Immigration",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz PIM Upgrade John Doe John Doe Personal Details Contact Details Emergency Contacts Dependents Immigration Job Salary Report-to Qualifications Memberships Assigned Immigration Records Add (1) Record Found Document Number Issued By Issued Date Expiry Date Actions Passport 123456789 United States 2026-01-01 2030-06-06 Attachments Add No Records Found File Name Description Size Type Date Added Added By Actions OrangeHRM OS 5.9 © 2005 - 2026 OrangeHRM, Inc. All rights reserved. ",
+   "depth": 2,
+   "nav_pos": 16,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 36,
+    "images": 4,
+    "inputs": 4
+   },
+   "shot": "shots/web_index_php_pim_viewImmigration_empNumber_id.png",
+   "global": false,
+   "prior": 0.295,
+   "wow": 0.3,
+   "tags": [
+    "immigration",
+    "inmigración",
+    "visados",
+    "pasaportes",
+    "documentos",
+    "compliance",
+    "expiración",
+    "pim"
+   ],
+   "desc": "Registros de documentos de inmigración, como pasaportes y visados, con fechas de emisión y caducidad.",
+   "name": "Inmigración",
+   "wow_why": "Tabla de documentos con un solo registro",
+   "pitch": "Controlas pasaportes y visados de la plantilla con sus fechas de caducidad. Aquí hay un registro cargado, para no perder ningún vencimiento."
+  },
+  {
+   "id": "/web/index.php/pim/viewJobDetails/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+   "label": "Job",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz PIM Upgrade John Doe John Doe Personal Details Contact Details Emergency Contacts Dependents Immigration Job Salary Report-to Qualifications Memberships Job Details Joined Date Job Title HR Manager Job Specification Not Defined Job Category Officials and Managers Sub Unit Human Resources Location Texas R&D Employment Status Full-Time Permanent Include Employment Contract Details Attachments No Records Found File Name Description Size Type Date Added Added By Actions OrangeHRM OS 5.9 © 2005 - 2026 OrangeHRM, Inc. All rights reserved. ",
+   "depth": 2,
+   "nav_pos": 17,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 11,
+    "images": 4,
+    "inputs": 3
+   },
+   "shot": "shots/web_index_php_pim_viewJobDetails_empNumber_id.png",
+   "global": false,
+   "prior": 0.295,
+   "wow": 0.5,
+   "tags": [
+    "job",
+    "puesto",
+    "job title",
+    "categoría",
+    "contrato",
+    "empleo",
+    "pim",
+    "organización"
+   ],
+   "desc": "Detalles laborales del empleado: puesto, categoría, fecha de incorporación y especificación.",
+   "name": "Puesto",
+   "wow_why": "Datos de puesto y categoría, información estructurada",
+   "pitch": "Aquí ves la situación laboral del empleado: su puesto, que en este caso es HR Manager, su categoría y sus datos de contrato."
+  },
+  {
+   "id": "/web/index.php/pim/viewSalaryList/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+   "label": "Salary",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz PIM Upgrade John Doe John Doe Personal Details Contact Details Emergency Contacts Dependents Immigration Job Salary Report-to Qualifications Memberships Assigned Salary Components No Records Found Salary Component Amount Currency Pay Frequency Direct Deposit Amount Attachments No Records Found File Name Description Size Type Date Added Added By Actions OrangeHRM OS 5.9 © 2005 - 2026 OrangeHRM, Inc. All rights reserved. ",
+   "depth": 2,
+   "nav_pos": 18,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 20,
+    "images": 4,
+    "inputs": 1
+   },
+   "shot": "shots/web_index_php_pim_viewSalaryList_empNumber_id.png",
+   "global": false,
+   "prior": 0.295,
+   "wow": 0.4,
+   "tags": [
+    "salary",
+    "salario",
+    "nómina",
+    "payroll",
+    "compensación",
+    "pay frequency",
+    "pim",
+    "hr"
+   ],
+   "desc": "Componentes salariales del empleado con importe, moneda y frecuencia de pago.",
+   "name": "Salario",
+   "wow_why": "Componentes salariales sensibles, aquí sin registros",
+   "pitch": "Se registra la compensación de cada empleado por componentes, con moneda, frecuencia de pago y datos de depósito directo."
+  },
+  {
+   "id": "/web/index.php/pim/viewReportToDetails/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+   "label": "Report-to",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz PIM Upgrade John Doe John Doe Personal Details Contact Details Emergency Contacts Dependents Immigration Job Salary Report-to Qualifications Memberships Report to Assigned Supervisors No Records Found Name Reporting Method Assigned Subordinates (1) Record Found Name Reporting Method Sara Tencrady Direct Attachments No Records Found File Name Description Size Type Date Added Added By Actions OrangeHRM OS 5.9 © 2005 - 2026 OrangeHRM, Inc. All rights reserved. ",
+   "depth": 2,
+   "nav_pos": 19,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 27,
+    "images": 4,
+    "inputs": 1
+   },
+   "shot": "shots/web_index_php_pim_viewReportToDetails_empNumber_id.png",
+   "global": false,
+   "prior": 0.295,
+   "wow": 0.5,
+   "tags": [
+    "report-to",
+    "jerarquía",
+    "supervisor",
+    "subordinados",
+    "organigrama",
+    "equipo",
+    "pim",
+    "management"
+   ],
+   "desc": "Relaciones de reporte del empleado: supervisores asignados y subordinados.",
+   "name": "Jerarquía",
+   "wow_why": "Muestra supervisores y subordinados, estructura del equipo",
+   "pitch": "Aquí defines quién reporta a quién: supervisores y subordinados, con su método de reporte. Hay un subordinado asignado, y la jerarquía alimenta las aprobaciones."
+  },
+  {
+   "id": "/web/index.php/pim/viewQualifications/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+   "label": "Qualifications",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "headings": [],
+   "text": "Admin PIM Leave Time Recruitment My Info Performance Dashboard Directory Maintenance Claim Buzz PIM Upgrade John Doe John Doe Personal Details Contact Details Emergency Contacts Dependents Immigration Job Salary Report-to Qualifications Memberships Qualifications Work Experience Add No Records Found Company Job Title From To Comment Actions Education Add (1) Record Found Level Year GPA/Score Actions Bachelor's Degree Skills Add No Records Found Skill Years of Experience Actions Languages Add No Records Found Language Fluency Competency Comments Actions License Add No Records Found License Type Issued Date Expiry Date Actions Attachments Add No Records Found File Name Description Size Type Da",
+   "depth": 2,
+   "nav_pos": 20,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 70,
+    "images": 4,
+    "inputs": 8
+   },
+   "shot": "shots/web_index_php_pim_viewQualifications_empNumber_id.png",
+   "global": false,
+   "prior": 0.295,
+   "wow": 0.4,
+   "tags": [
+    "qualifications",
+    "cualificaciones",
+    "experiencia",
+    "educación",
+    "skills",
+    "formación",
+    "talento",
+    "pim"
+   ],
+   "desc": "Cualificaciones del empleado: experiencia laboral, educación y otras competencias.",
+   "name": "Cualificaciones",
+   "wow_why": "Experiencia y formación, útil pero sin datos",
+   "pitch": "Recoge la experiencia laboral, la formación y las competencias de cada persona, útil para planificar el talento y las promociones."
+  }
+ ],
+ "edges": [
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/admin/viewSystemUsers",
+   "label": "Admin"
+  },
+  {
+   "from": "/web/index.php/admin/viewSystemUsers",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/pim/viewEmployeeList",
+   "label": "PIM"
+  },
+  {
+   "from": "/web/index.php/pim/viewEmployeeList",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/leave/viewLeaveList",
+   "label": "Leave"
+  },
+  {
+   "from": "/web/index.php/leave/viewLeaveList",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/time/viewEmployeeTimesheet",
+   "label": "Time"
+  },
+  {
+   "from": "/web/index.php/time/viewEmployeeTimesheet",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/recruitment/viewCandidates",
+   "label": "Recruitment"
+  },
+  {
+   "from": "/web/index.php/recruitment/viewCandidates",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "label": "My Info"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/performance/searchEvaluatePerformanceReview",
+   "label": "Performance"
+  },
+  {
+   "from": "/web/index.php/performance/searchEvaluatePerformanceReview",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/directory/viewDirectory",
+   "label": "Directory"
+  },
+  {
+   "from": "/web/index.php/directory/viewDirectory",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/maintenance/purgeEmployee",
+   "label": "Maintenance"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/claim/viewAssignClaim",
+   "label": "Claim"
+  },
+  {
+   "from": "/web/index.php/claim/viewAssignClaim",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/claim/viewAssignClaim",
+   "to": "/web/index.php/directory/viewDirectory",
+   "label": "Directory"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/buzz/viewBuzz",
+   "label": "Buzz"
+  },
+  {
+   "from": "/web/index.php/buzz/viewBuzz",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/buzz/viewBuzz",
+   "to": "/web/index.php/directory/viewDirectory",
+   "label": "Directory"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/contactDetails/empNumber/:id",
+   "label": "Contact Details"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewEmergencyContacts/empNumber/:id",
+   "label": "Emergency Contacts"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewDependents/empNumber/:id",
+   "label": "Dependents"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewImmigration/empNumber/:id",
+   "label": "Immigration"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewJobDetails/empNumber/:id",
+   "label": "Job"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewSalaryList/empNumber/:id",
+   "label": "Salary"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewReportToDetails/empNumber/:id",
+   "label": "Report-to"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewQualifications/empNumber/:id",
+   "label": "Qualifications"
+  }
+ ],
+ "meta": {
+  "name": "OrangeHRM",
+  "summary": "Plataforma de gestión de recursos humanos que centraliza empleados, ausencias, tiempos, reclutamiento y desempeño para equipos de RR. HH.",
+  "opening": "¡Hola! Te enseño OrangeHRM, una plataforma para gestionar todo el ciclo de vida de tus empleados. ¿Cuál es tu rol o qué área de RR. HH. te gustaría mejorar?",
+  "options": [
+   "Soy de RR. HH. y gestiono empleados",
+   "Quiero controlar vacaciones y ausencias",
+   "Busco mejorar el reclutamiento",
+   "Necesito seguir el desempeño del equipo",
+   "Quiero ver el control de horas y partes"
+  ]
+ }
+}

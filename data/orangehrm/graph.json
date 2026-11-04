@@ -1,0 +1,783 @@
+{
+ "site": "orangehrm",
+ "root": "/web/index.php/dashboard/index",
+ "nodes": [
+  {
+   "id": "/web/index.php/dashboard/index",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+   "label": "Inicio",
+   "title": "OrangeHRM",
+   "h1": "Dashboard",
+   "depth": 0,
+   "nav_pos": 0,
+   "in_nav": true,
+   "rich": {
+    "charts": 21,
+    "tables": 0,
+    "images": 10,
+    "inputs": 1
+   },
+   "shot": "shots/web_index_php_dashboard_index.png",
+   "global": false,
+   "prior": 0.85,
+   "wow": 0.85,
+   "tags": [
+    "overview",
+    "dashboard",
+    "resumen",
+    "analytics",
+    "kpis",
+    "time",
+    "buzz"
+   ],
+   "desc": "Vista general: tiempo trabajado, acciones pendientes, accesos rápidos y feed social",
+   "wow_why": "widgets visuales, gráfica semanal y todo el producto de un vistazo"
+  },
+  {
+   "id": "/web/index.php/admin/viewSystemUsers",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+   "label": "Admin",
+   "title": "OrangeHRM",
+   "h1": "Admin\nUser Management",
+   "depth": 1,
+   "nav_pos": 0,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 265,
+    "images": 3,
+    "inputs": 23
+   },
+   "shot": "shots/web_index_php_admin_viewSystemUsers.png",
+   "global": false,
+   "prior": 0.75,
+   "wow": 0.35,
+   "tags": [
+    "admin",
+    "users",
+    "usuarios",
+    "permisos",
+    "security",
+    "roles"
+   ],
+   "desc": "Gestión de usuarios del sistema y roles",
+   "wow_why": ""
+  },
+  {
+   "id": "/web/index.php/pim/viewEmployeeList",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+   "label": "PIM",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "depth": 1,
+   "nav_pos": 1,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 804,
+    "images": 3,
+    "inputs": 55
+   },
+   "shot": "shots/web_index_php_pim_viewEmployeeList.png",
+   "global": false,
+   "prior": 0.721,
+   "wow": 0.6,
+   "tags": [
+    "employees",
+    "empleados",
+    "pim",
+    "hr",
+    "rrhh",
+    "plantilla",
+    "datos"
+   ],
+   "desc": "Base de datos de empleados con filtros y búsqueda",
+   "wow_why": "tabla viva con toda la plantilla"
+  },
+  {
+   "id": "/web/index.php/leave/viewLeaveList",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+   "label": "Leave",
+   "title": "OrangeHRM",
+   "h1": "Leave",
+   "depth": 1,
+   "nav_pos": 2,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 19,
+    "images": 3,
+    "inputs": 6
+   },
+   "shot": "shots/web_index_php_leave_viewLeaveList.png",
+   "global": false,
+   "prior": 0.692,
+   "wow": 0.65,
+   "tags": [
+    "leave",
+    "vacaciones",
+    "ausencias",
+    "ausencia",
+    "approvals",
+    "aprobaciones",
+    "holidays"
+   ],
+   "desc": "Solicitudes de vacaciones y ausencias con flujo de aprobación",
+   "wow_why": "flujo de aprobación en un clic"
+  },
+  {
+   "id": "/web/index.php/time/viewEmployeeTimesheet",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+   "label": "Time",
+   "title": "OrangeHRM",
+   "h1": "Time\nTimesheets",
+   "depth": 1,
+   "nav_pos": 3,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 28,
+    "images": 3,
+    "inputs": 2
+   },
+   "shot": "shots/web_index_php_time_viewEmployeeTimesheet.png",
+   "global": false,
+   "prior": 0.662,
+   "wow": 0.55,
+   "tags": [
+    "time",
+    "tiempo",
+    "timesheets",
+    "horas",
+    "fichaje",
+    "attendance",
+    "costes"
+   ],
+   "desc": "Hojas de horas y control de asistencia",
+   "wow_why": ""
+  },
+  {
+   "id": "/web/index.php/recruitment/viewCandidates",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+   "label": "Recruitment",
+   "title": "OrangeHRM",
+   "h1": "Recruitment",
+   "depth": 1,
+   "nav_pos": 4,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 718,
+    "images": 3,
+    "inputs": 56
+   },
+   "shot": "shots/web_index_php_recruitment_viewCandidates.png",
+   "global": false,
+   "prior": 0.633,
+   "wow": 0.75,
+   "tags": [
+    "recruitment",
+    "reclutamiento",
+    "hiring",
+    "contratacion",
+    "candidates",
+    "candidatos",
+    "talent",
+    "talento"
+   ],
+   "desc": "Pipeline de candidatos y vacantes con estados",
+   "wow_why": "pipeline completo de contratación con 78 candidatos"
+  },
+  {
+   "id": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+   "label": "My Info",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "depth": 1,
+   "nav_pos": 5,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 27,
+    "images": 4,
+    "inputs": 14
+   },
+   "shot": "shots/web_index_php_pim_viewPersonalDetails_empNumber_id.png",
+   "global": false,
+   "prior": 0.604,
+   "wow": 0.4,
+   "tags": [
+    "my info",
+    "perfil",
+    "self-service",
+    "empleado",
+    "personal"
+   ],
+   "desc": "Ficha personal del empleado (autoservicio)",
+   "wow_why": ""
+  },
+  {
+   "id": "/web/index.php/performance/searchEvaluatePerformanceReview",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+   "label": "Performance",
+   "title": "OrangeHRM",
+   "h1": "Performance\nManage Reviews",
+   "depth": 1,
+   "nav_pos": 6,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 37,
+    "images": 3,
+    "inputs": 4
+   },
+   "shot": "shots/web_index_php_performance_searchEvaluatePerformanceReview.png",
+   "global": false,
+   "prior": 0.575,
+   "wow": 0.7,
+   "tags": [
+    "performance",
+    "rendimiento",
+    "evaluaciones",
+    "reviews",
+    "kpis",
+    "objetivos",
+    "talent",
+    "talento"
+   ],
+   "desc": "Evaluaciones de desempeño y KPIs por empleado",
+   "wow_why": "evaluaciones y KPIs: habla el idioma de dirección"
+  },
+  {
+   "id": "/web/index.php/directory/viewDirectory",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+   "label": "Directory",
+   "title": "OrangeHRM",
+   "h1": "Directory",
+   "depth": 1,
+   "nav_pos": 8,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 6,
+    "images": 17,
+    "inputs": 2
+   },
+   "shot": "shots/web_index_php_directory_viewDirectory.png",
+   "global": true,
+   "prior": 0.667,
+   "wow": 0.7,
+   "tags": [
+    "directory",
+    "directorio",
+    "org",
+    "organizacion",
+    "people",
+    "equipo"
+   ],
+   "desc": "Directorio visual de la empresa con tarjetas por persona",
+   "wow_why": "tarjetas visuales de 139 personas"
+  },
+  {
+   "id": "/web/index.php/maintenance/purgeEmployee",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+   "label": "Maintenance",
+   "title": "OrangeHRM",
+   "h1": "Administrator Access",
+   "depth": 1,
+   "nav_pos": 9,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 0,
+    "images": 0,
+    "inputs": 3
+   },
+   "shot": "shots/web_index_php_maintenance_purgeEmployee.png",
+   "global": false,
+   "prior": 0.195,
+   "wow": 0.1,
+   "tags": [
+    "maintenance",
+    "gdpr",
+    "purge",
+    "compliance"
+   ],
+   "desc": "Purga de datos (GDPR)",
+   "wow_why": ""
+  },
+  {
+   "id": "/web/index.php/claim/viewAssignClaim",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+   "label": "Claim",
+   "title": "OrangeHRM",
+   "h1": "Claim",
+   "depth": 1,
+   "nav_pos": 10,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 89,
+    "images": 3,
+    "inputs": 5
+   },
+   "shot": "shots/web_index_php_claim_viewAssignClaim.png",
+   "global": false,
+   "prior": 0.47,
+   "wow": 0.5,
+   "tags": [
+    "claim",
+    "gastos",
+    "expenses",
+    "reembolsos",
+    "costes",
+    "finance",
+    "finanzas"
+   ],
+   "desc": "Solicitudes de gastos y reembolsos",
+   "wow_why": ""
+  },
+  {
+   "id": "/web/index.php/buzz/viewBuzz",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+   "label": "Buzz",
+   "title": "OrangeHRM",
+   "h1": "Buzz",
+   "depth": 1,
+   "nav_pos": 11,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 0,
+    "images": 19,
+    "inputs": 2
+   },
+   "shot": "shots/web_index_php_buzz_viewBuzz.png",
+   "global": true,
+   "prior": 0.62,
+   "wow": 0.8,
+   "tags": [
+    "buzz",
+    "social",
+    "comunicacion",
+    "cultura",
+    "engagement",
+    "feed"
+   ],
+   "desc": "Red social interna: posts, likes y comentarios",
+   "wow_why": "feed social: lo más 'consumer' de un HR"
+  },
+  {
+   "id": "/web/index.php/pim/contactDetails/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+   "label": "Contact Details",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "depth": 2,
+   "nav_pos": 13,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 12,
+    "images": 4,
+    "inputs": 12
+   },
+   "shot": "shots/web_index_php_pim_contactDetails_empNumber_id.png",
+   "global": false,
+   "prior": 0.118,
+   "wow": 0.2,
+   "tags": [
+    "contacto",
+    "contact",
+    "empleado"
+   ],
+   "desc": "Datos de contacto del empleado",
+   "wow_why": ""
+  },
+  {
+   "id": "/web/index.php/pim/viewEmergencyContacts/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+   "label": "Emergency Contacts",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "depth": 2,
+   "nav_pos": 14,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 23,
+    "images": 4,
+    "inputs": 3
+   },
+   "shot": "shots/web_index_php_pim_viewEmergencyContacts_empNumber_id.png",
+   "global": false,
+   "prior": 0.118,
+   "wow": 0.15,
+   "tags": [
+    "emergencia",
+    "empleado"
+   ],
+   "desc": "Contactos de emergencia",
+   "wow_why": ""
+  },
+  {
+   "id": "/web/index.php/pim/viewDependents/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+   "label": "Dependents",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "depth": 2,
+   "nav_pos": 15,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 21,
+    "images": 4,
+    "inputs": 3
+   },
+   "shot": "shots/web_index_php_pim_viewDependents_empNumber_id.png",
+   "global": false,
+   "prior": 0.295,
+   "wow": 0.15,
+   "tags": [
+    "dependientes",
+    "empleado"
+   ],
+   "desc": "Personas a cargo",
+   "wow_why": ""
+  },
+  {
+   "id": "/web/index.php/pim/viewImmigration/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+   "label": "Immigration",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "depth": 2,
+   "nav_pos": 16,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 36,
+    "images": 4,
+    "inputs": 4
+   },
+   "shot": "shots/web_index_php_pim_viewImmigration_empNumber_id.png",
+   "global": false,
+   "prior": 0.295,
+   "wow": 0.25,
+   "tags": [
+    "immigration",
+    "visados",
+    "compliance"
+   ],
+   "desc": "Pasaportes y visados",
+   "wow_why": ""
+  },
+  {
+   "id": "/web/index.php/pim/viewJobDetails/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+   "label": "Job",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "depth": 2,
+   "nav_pos": 17,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 11,
+    "images": 4,
+    "inputs": 3
+   },
+   "shot": "shots/web_index_php_pim_viewJobDetails_empNumber_id.png",
+   "global": false,
+   "prior": 0.295,
+   "wow": 0.4,
+   "tags": [
+    "job",
+    "puesto",
+    "contrato",
+    "empleado",
+    "hr"
+   ],
+   "desc": "Puesto, contrato y departamento",
+   "wow_why": ""
+  },
+  {
+   "id": "/web/index.php/pim/viewSalaryList/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+   "label": "Salary",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "depth": 2,
+   "nav_pos": 18,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 20,
+    "images": 4,
+    "inputs": 1
+   },
+   "shot": "shots/web_index_php_pim_viewSalaryList_empNumber_id.png",
+   "global": false,
+   "prior": 0.295,
+   "wow": 0.6,
+   "tags": [
+    "salary",
+    "salario",
+    "nomina",
+    "payroll",
+    "costes",
+    "finance",
+    "finanzas"
+   ],
+   "desc": "Componentes salariales del empleado",
+   "wow_why": "salario por componentes: clave para finanzas"
+  },
+  {
+   "id": "/web/index.php/pim/viewReportToDetails/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+   "label": "Report-to",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "depth": 2,
+   "nav_pos": 19,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 27,
+    "images": 4,
+    "inputs": 1
+   },
+   "shot": "shots/web_index_php_pim_viewReportToDetails_empNumber_id.png",
+   "global": false,
+   "prior": 0.295,
+   "wow": 0.45,
+   "tags": [
+    "org",
+    "organigrama",
+    "jerarquia",
+    "managers"
+   ],
+   "desc": "Jerarquía: a quién reporta y quién le reporta",
+   "wow_why": ""
+  },
+  {
+   "id": "/web/index.php/pim/viewQualifications/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+   "label": "Qualifications",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "depth": 2,
+   "nav_pos": 20,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 70,
+    "images": 4,
+    "inputs": 8
+   },
+   "shot": "shots/web_index_php_pim_viewQualifications_empNumber_id.png",
+   "global": false,
+   "prior": 0.295,
+   "wow": 0.35,
+   "tags": [
+    "skills",
+    "habilidades",
+    "formacion",
+    "talent",
+    "talento"
+   ],
+   "desc": "Habilidades, formación e idiomas",
+   "wow_why": ""
+  },
+  {
+   "id": "/web/index.php/pim/viewMemberships/empNumber/:id",
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
+   "label": "Memberships",
+   "title": "OrangeHRM",
+   "h1": "PIM",
+   "depth": 2,
+   "nav_pos": 21,
+   "in_nav": true,
+   "rich": {
+    "charts": 0,
+    "tables": 24,
+    "images": 4,
+    "inputs": 3
+   },
+   "shot": "shots/web_index_php_pim_viewMemberships_empNumber_id.png",
+   "global": false,
+   "prior": 0.295,
+   "wow": 0.15,
+   "tags": [
+    "memberships",
+    "asociaciones"
+   ],
+   "desc": "Membresías profesionales",
+   "wow_why": ""
+  }
+ ],
+ "edges": [
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/admin/viewSystemUsers",
+   "label": "Admin"
+  },
+  {
+   "from": "/web/index.php/admin/viewSystemUsers",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/pim/viewEmployeeList",
+   "label": "PIM"
+  },
+  {
+   "from": "/web/index.php/pim/viewEmployeeList",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/leave/viewLeaveList",
+   "label": "Leave"
+  },
+  {
+   "from": "/web/index.php/leave/viewLeaveList",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/time/viewEmployeeTimesheet",
+   "label": "Time"
+  },
+  {
+   "from": "/web/index.php/time/viewEmployeeTimesheet",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/recruitment/viewCandidates",
+   "label": "Recruitment"
+  },
+  {
+   "from": "/web/index.php/recruitment/viewCandidates",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "label": "My Info"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/performance/searchEvaluatePerformanceReview",
+   "label": "Performance"
+  },
+  {
+   "from": "/web/index.php/performance/searchEvaluatePerformanceReview",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/directory/viewDirectory",
+   "label": "Directory"
+  },
+  {
+   "from": "/web/index.php/directory/viewDirectory",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/maintenance/purgeEmployee",
+   "label": "Maintenance"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/claim/viewAssignClaim",
+   "label": "Claim"
+  },
+  {
+   "from": "/web/index.php/claim/viewAssignClaim",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/claim/viewAssignClaim",
+   "to": "/web/index.php/directory/viewDirectory",
+   "label": "Directory"
+  },
+  {
+   "from": "/web/index.php/dashboard/index",
+   "to": "/web/index.php/buzz/viewBuzz",
+   "label": "Buzz"
+  },
+  {
+   "from": "/web/index.php/buzz/viewBuzz",
+   "to": "/web/index.php/dashboard/index",
+   "label": "Dashboard"
+  },
+  {
+   "from": "/web/index.php/buzz/viewBuzz",
+   "to": "/web/index.php/directory/viewDirectory",
+   "label": "Directory"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/contactDetails/empNumber/:id",
+   "label": "Contact Details"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewEmergencyContacts/empNumber/:id",
+   "label": "Emergency Contacts"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewDependents/empNumber/:id",
+   "label": "Dependents"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewImmigration/empNumber/:id",
+   "label": "Immigration"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewJobDetails/empNumber/:id",
+   "label": "Job"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewSalaryList/empNumber/:id",
+   "label": "Salary"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewReportToDetails/empNumber/:id",
+   "label": "Report-to"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewQualifications/empNumber/:id",
+   "label": "Qualifications"
+  },
+  {
+   "from": "/web/index.php/pim/viewPersonalDetails/empNumber/:id",
+   "to": "/web/index.php/pim/viewMemberships/empNumber/:id",
+   "label": "Memberships"
+  }
+ ]
+}

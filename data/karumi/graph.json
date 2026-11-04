@@ -1,0 +1,2025 @@
+{
+ "site": "karumi",
+ "root": "/",
+ "nodes": [
+  {
+   "id": "/",
+   "url": "https://karumi.ai/",
+   "label": "Inicio",
+   "title": "Karumi: AI Demo Agent That Runs Your Real Product, Live",
+   "h1": "Let your product\nonboard\nsell itself",
+   "headings": [
+    "Let your product onboard sell itself",
+    "Don't show your product like it's 1995",
+    "Marketing",
+    "Sales",
+    "Onboarding & Support",
+    "Supercharging the best teams",
+    "It's a video call, not a video",
+    "01 The link a visitor clicks",
+    "02 2 seconds, it's sharing its screen",
+    "03 Speak, type, interrupt",
+    "04 You’re notified, recording sent",
+    "Product knowledge is what makes us unique"
+   ],
+   "text": "Y Backed by Y Combinator 102,023 demos delivered Let your product onboard sell itself Karumi is an AI agent that knows your product end to end and runs the real thing live, not a recording, for whoever is asking. Try AI demo now 4.9/5 . Read Karumi reviews on G2 (opens in a new tab) Moving off Navattic, Storylane or Arcade? Switch to a live agent Case study → 12 JAN FEB MAR APR MAY JUN JUL AUG SEPT OCT 7000 6000 5000 4000 3000 2000 1000 AI AGENT LUCY P CTO AT QUANTISCOPE On-demand Product Demo Multi-Language Support Connect with your CRM Let me show you the product Your email Watch Now No signup required! Talk to our AI demo agent. No signup required! Talk to our AI demo agent. 3.2x More mee",
+   "depth": 0,
+   "nav_pos": 0,
+   "in_nav": true,
+   "rich": {
+    "charts": 22,
+    "tables": 13,
+    "images": 189,
+    "inputs": 4
+   },
+   "shot": "shots/home.png",
+   "global": false,
+   "prior": 0.85,
+   "wow": 0.8,
+   "tags": [
+    "ai demo agent",
+    "demo en vivo",
+    "live demo",
+    "y combinator",
+    "product demo",
+    "marketing",
+    "ventas",
+    "onboarding"
+   ],
+   "desc": "Página principal de Karumi, un agente de IA que conoce tu producto y lo ejecuta en vivo para quien lo pida.",
+   "name": "Inicio",
+   "wow_why": "Propuesta clara: agente que opera el producto real en vivo",
+   "pitch": "Karumi es un agente que conoce tu producto de principio a fin y lo maneja en directo, no una grabación. Ya ha entregado más de 102.000 demos y tiene 4,9/5 en G2."
+  },
+  {
+   "id": "/products/product-brain",
+   "url": "https://karumi.ai/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,",
+   "title": "Product Brain: Product Knowledge for AI Agents, via API or MCP — Karumi",
+   "h1": "Turn your agent into a world-class\nsupport rep",
+   "headings": [
+    "Turn your agent into a world-class support rep",
+    "Product knowledge is what makes us unique",
+    "Scanning & learning your product 24/7",
+    "Every screen of your product, in one product brain",
+    "Context is the difference",
+    "Your agent is only limited by your imagination",
+    "Import contacts",
+    "Sign-up forms",
+    "Lists",
+    "Senders & domains",
+    "Create a list",
+    "First email campaign"
+   ],
+   "text": "The Product Brain for AI agents Turn your agent into a world-class support rep Karumi learns your product the way your best people know it: every screen, flow and release. Give that brain to every agent you run, via API or MCP. Get API access Launch demo Contacts Import contacts dialog Lists Create a list dialog Segments Add filter dialog Campaigns Create from scratch dialog A/B test setup Preview & test dialog Templates Automations Create an automation dialog Workflows Rules dialog Landing pages Landing page settings Forms SMS campaigns WhatsApp campaigns Deliverability Center Senders & domains Reports Dashboard Call history Payment requests Edit record dialog Customize columns dialog Karum",
+   "depth": 1,
+   "nav_pos": 99,
+   "in_nav": false,
+   "rich": {
+    "charts": 12,
+    "tables": 1,
+    "images": 56,
+    "inputs": 2
+   },
+   "shot": "shots/products_product_brain.png",
+   "global": true,
+   "prior": 0.655,
+   "wow": 0.7,
+   "tags": [
+    "product brain",
+    "api",
+    "mcp",
+    "product knowledge",
+    "soporte",
+    "support agent",
+    "ai agents",
+    "conocimiento de producto"
+   ],
+   "desc": "Producto que escanea tu producto 24/7 y ofrece su conocimiento a otros agentes vía API o MCP.",
+   "name": "Product Brain",
+   "wow_why": "Conocimiento del producto reutilizable por cualquier agente vía API",
+   "pitch": "El Product Brain aprende cada pantalla, flujo y novedad de tu producto y se lo da a cualquier agente vía API o MCP. Así tu agente de soporte responde como tu mejor experto."
+  },
+  {
+   "id": "/website-demo",
+   "url": "https://karumi.ai/website-demo",
+   "label": "/website-demo",
+   "title": "AI Website Demos: Your Real Product, Live, for Every Visitor — Karumi",
+   "h1": "Every visitor gets a demo. Not a form",
+   "headings": [
+    "Every visitor gets a demo. Not a form",
+    "Your campaigns run around the clock. Now your demos do too.",
+    "Ask for an email. Learn everything else in the conversation",
+    "You already have something on your landing page",
+    "It's a video call, not a video",
+    "Start with chat. Move to a live demo when intent is there",
+    "Every demo ends somewhere. The agent decides where",
+    "Own the explanation. And the data behind it",
+    "Your product, explained your way",
+    "Every question, in their words",
+    "Rank for what they're actually asking",
+    "Built to live on your homepage"
+   ],
+   "text": "Marketing Every visitor gets a demo. Not a form A live demo of your real product, not a recording. Karumi's agent joins your visitor on a live call in less than two seconds, shares its screen, and walks them through your real product. No calendar link, no waiting. Try AI demo now 4.9/5 See the product Live Acme Corp — 500 seats | Sales × + acme.lightning.force.com/lightning/r/Opportunity/0065g00000X7kPQAAZ/view Search… AM Sales Home Opportunities Accounts Contacts Leads Reports Opportunity Acme Corp — 500 seats Follow Edit Account Name Acme Corp Close Date 11/28/2026 Amount $120,000.00 Opportunity Owner Alex Morgan Qualify Meet & Present Propose Negotiate Closed Mark Stage as Complete Detail",
+   "depth": 1,
+   "nav_pos": 1,
+   "in_nav": true,
+   "rich": {
+    "charts": 21,
+    "tables": 14,
+    "images": 161,
+    "inputs": 5
+   },
+   "shot": "shots/website_demo.png",
+   "global": true,
+   "prior": 0.871,
+   "wow": 0.9,
+   "tags": [
+    "website demo",
+    "marketing",
+    "demo en vivo",
+    "lead qualification",
+    "visitantes web",
+    "conversion",
+    "video call",
+    "inbound"
+   ],
+   "desc": "Solución de marketing que da una demo en videollamada a cada visitante de la web.",
+   "name": "Demo web",
+   "wow_why": "Videollamada en vivo con el producto real en dos segundos",
+   "pitch": "Cada visitante recibe una demo, no un formulario: el agente se une a una llamada en menos de dos segundos, comparte pantalla y recorre tu producto real. Sin calendarios ni esperas."
+  },
+  {
+   "id": "/sales",
+   "url": "https://karumi.ai/sales",
+   "label": "/sales",
+   "title": "Karumi for Sales — Give your SEs their calendar back",
+   "h1": "Give your SEs their calendar back",
+   "headings": [
+    "Give your SEs their calendar back",
+    "What happens when the demo isn't the bottleneck",
+    "Your SEs are booked three weeks out",
+    "Three ways sales teams use it",
+    "Outbound",
+    "Pre-sales",
+    "After the demo request",
+    "What that changes",
+    "Your SEs go deeper",
+    "Your AEs close faster",
+    "Your buying committee aligns",
+    "Down-market pays for itself"
+   ],
+   "text": "Sales Give your SEs their calendar back Karumi's agent runs the light demos. In your outbound, mid-deal, or beside your rep on the call itself. Try AI demo now 4.9/5 00:05 Pipeline · Acme × + app.acme.com/pipeline?period=this-quarter&team=all Acme Overview Pipeline Deals Contacts Reports Settings JL Jordan Lee Sales Director Pipeline Every open deal, forecast and win across your teams. This quarter All teams All regions Open pipeline +12.4% $2.4M Win rate +6.2% 31% Avg deal size +3.1% $48k Sales cycle −4 days 34 days Won vs. open by month Won Open Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Dec · 49 deals won Agent Hi! I'm your demo guide. Let's look at your pipeline. Win rate is up six ",
+   "depth": 1,
+   "nav_pos": 2,
+   "in_nav": true,
+   "rich": {
+    "charts": 8,
+    "tables": 1,
+    "images": 71,
+    "inputs": 4
+   },
+   "shot": "shots/sales.png",
+   "global": true,
+   "prior": 0.842,
+   "wow": 0.85,
+   "tags": [
+    "sales",
+    "sales engineer",
+    "outbound",
+    "pre-sales",
+    "pipeline",
+    "demo",
+    "ventas",
+    "se bottleneck"
+   ],
+   "desc": "Página de ventas: el agente hace demos ligeras en outbound, a mitad de trato o junto al comercial.",
+   "name": "Ventas",
+   "wow_why": "Libera a los SEs ejecutando demos en outbound y pre-venta",
+   "pitch": "Tus SEs tienen agenda llena a tres semanas vista. Karumi ejecuta las demos ligeras en outbound, en mitad del trato o a tu lado en la llamada, para que ellos se centren en lo importante."
+  },
+  {
+   "id": "/onboarding",
+   "url": "https://karumi.ai/onboarding",
+   "label": "/onboarding",
+   "title": "AI User Onboarding: A Dedicated CSM for Every User — Karumi",
+   "h1": "A dedicated CSM for every user",
+   "headings": [
+    "A dedicated CSM for every user",
+    "AI hand holds your users to get them activated 2x faster",
+    "Without Karumi",
+    "With Karumi",
+    "You already have an onboarding flow",
+    "It doesn’t just explain. It does",
+    "In a video call",
+    "In chat",
+    "Wherever a user is most likely to get stuck",
+    "Empty states",
+    "Your setup checklist",
+    "The moment they stall"
+   ],
+   "text": "Onboarding A dedicated CSM for every user Karumi’s agent lives inside your product, knows it end to end, and walks every new user through their first week . Try AI demo now 4.9/5 Case Study Case Study 67% Fewer tickets 95% Less maintenance 10x More engagement than a video AI hand holds your users to get them activated 2x faster Without Karumi Chatbots can’t see, hear or talk back with your users. Chat Bot online How do I invite my team? Open Settings → Members, then click “Invite” and add emails. Ask anything... How do I get started? Where are my reports? With Karumi Shows on their screen, tracks progress, offers a videocall with a virtual CSM. Step 2 of 4 Join video call You already have an",
+   "depth": 1,
+   "nav_pos": 3,
+   "in_nav": true,
+   "rich": {
+    "charts": 6,
+    "tables": 3,
+    "images": 106,
+    "inputs": 4
+   },
+   "shot": "shots/onboarding.png",
+   "global": true,
+   "prior": 0.812,
+   "wow": 0.85,
+   "tags": [
+    "onboarding",
+    "activation",
+    "activación",
+    "customer success",
+    "csm",
+    "tickets",
+    "retention",
+    "user onboarding"
+   ],
+   "desc": "Agente que vive dentro del producto y acompaña a cada usuario nuevo durante su primera semana.",
+   "name": "Onboarding",
+   "wow_why": "Resultados concretos: 67% menos tickets, 2x activación",
+   "pitch": "Es como un CSM dedicado para cada usuario: activa 2x más rápido, con 67% menos tickets, 95% menos mantenimiento y 10x más engagement que un vídeo. No solo explica, lo hace con ellos."
+  },
+  {
+   "id": "/internal-enablement",
+   "url": "https://karumi.ai/internal-enablement",
+   "label": "/internal-enablement",
+   "title": "AI Agent for Internal Enablement — Karumi",
+   "h1": "An AI agent that ramps up your team on the product",
+   "headings": [
+    "An AI agent that ramps up your team on the product",
+    "An expert on your product, available to everyone on your team",
+    "Without Karumi",
+    "With Karumi",
+    "You already have docs and training",
+    "It doesn’t just explain. It shows",
+    "In a video call",
+    "In chat",
+    "In whichever tool your team is already in",
+    "Your Slack workspace",
+    "A video call",
+    "A chat widget"
+   ],
+   "text": "Internal enablement An AI agent that ramps up your team on the product Karumi’s agent knows your product end to end. New hires, sales, support and CS ask it anything, on demand, and get walked through the real product in the tools they already use. Try AI demo now 4.9/5 Case Study Case Study 5x More engagement than ChatGPT 95% Less maintenance 67% Fewer tickets An expert on your product, available to everyone on your team Without Karumi Docs and chatbots can’t see, hear or talk back with your team. Chat Bot online How do I invite my team? Open Settings → Members, then click “Invite” and add emails. Ask anything... How do I get started? Where are my reports? With Karumi Shows them in your rea",
+   "depth": 1,
+   "nav_pos": 4,
+   "in_nav": true,
+   "rich": {
+    "charts": 10,
+    "tables": 4,
+    "images": 136,
+    "inputs": 4
+   },
+   "shot": "shots/internal_enablement.png",
+   "global": true,
+   "prior": 0.783,
+   "wow": 0.6,
+   "tags": [
+    "enablement",
+    "internal training",
+    "formación",
+    "new hires",
+    "sales ramp",
+    "support",
+    "customer success",
+    "docs"
+   ],
+   "desc": "Agente que forma al equipo interno en el producto, mostrándoles el producto real bajo demanda.",
+   "name": "Enablement",
+   "wow_why": "Útil para formar equipos, menos llamativo que demos externas",
+   "pitch": "Nuevos fichajes, ventas, soporte y CS le preguntan lo que quieran y les enseña el producto real. Logra 5x más engagement que ChatGPT y 95% menos mantenimiento que la documentación."
+  },
+  {
+   "id": "/products/videocall-agent",
+   "url": "https://karumi.ai/products/videocall-agent",
+   "label": "/products/videocall-agent",
+   "title": "Videocall Agent: Your Real Product, Demoed Live in Two Seconds — Karumi",
+   "h1": "Your real product,\nnot a recording.",
+   "headings": [
+    "Your real product, not a recording.",
+    "Four steps, no scheduling",
+    "They click the link",
+    "Sharing screen in 2 seconds",
+    "They speak, type or interrupt",
+    "You get the recording",
+    "It looks like yours",
+    "Start page",
+    "Videocall frame",
+    "End page",
+    "What it can do",
+    "Voice and text"
+   ],
+   "text": "Videocall Agent Your real product, not a recording. Your prospect clicks a link. Two seconds later an agent is on a video call with them, demoing your product live. Launch demo See pricing 12 JAN FEB MAR APR MAY JUN JUL AUG SEPT OCT 7000 6000 5000 4000 3000 2000 1000 AI AGENT LUCY P CTO AT QUANTISCOPE On-demand Product Demo Multi-Language Support Connect with your CRM 5x More conversion than a static video 10x More engagement than a video 16% More pipeline It's a call, not a video Four steps, no scheduling 01 They click the link No install, no lobby, no calendar. 0:02 live 0:01 live 0:00 live 02 Sharing screen in 2 seconds Your real product, not a recording. 03 They speak, type or interrupt ",
+   "depth": 1,
+   "nav_pos": 6,
+   "in_nav": true,
+   "rich": {
+    "charts": 15,
+    "tables": 12,
+    "images": 84,
+    "inputs": 3
+   },
+   "shot": "shots/products_videocall_agent.png",
+   "global": true,
+   "prior": 0.725,
+   "wow": 0.9,
+   "tags": [
+    "videocall agent",
+    "video call",
+    "demo en vivo",
+    "multi-language",
+    "on-demand demo",
+    "screen sharing",
+    "grabación",
+    "recording"
+   ],
+   "desc": "Producto central: un agente entra en videollamada y demuestra tu producto en vivo al hacer clic en un enlace.",
+   "name": "Videollamada",
+   "wow_why": "Agente en videollamada demostrando el producto en dos segundos",
+   "pitch": "Tu prospecto hace clic en un enlace y en dos segundos un agente está en videollamada compartiendo pantalla. Puede hablar, escribir o interrumpir, es multiidioma y tú recibes la grabación."
+  },
+  {
+   "id": "/products/website-qualifier",
+   "url": "https://karumi.ai/products/website-qualifier",
+   "label": "/products/website-qualifier",
+   "title": "Website Qualifier: Chat, Qualify and Demo in One Journey — Karumi",
+   "h1": "Chat. Qualify.\nDemo. Convert",
+   "headings": [
+    "Chat. Qualify. Demo. Convert",
+    "One journey, not four tools",
+    "They arrive & ask",
+    "It qualifies",
+    "It demos",
+    "Sales gets the context",
+    "The demo starts where the chat left off",
+    "What it can do",
+    "Qualification you define",
+    "Chips and calendars",
+    "Fastest response in the range",
+    "Opens into a video demo"
+   ],
+   "text": "Website Qualifier Chat. Qualify. Demo. Convert Chat answers their questions, qualifies on your criteria, then opens a live demo. Launch demo See pricing Ask us anything Qualified Live demo Live demo 38% Conversion rate 5x More engagement than ChatGPT 16% More pipeline How it works One journey, not four tools 01 They arrive & ask They aren’t ready to book, so they ask and get real answers. 02 It qualifies On your criteria, in conversation. live 03 It demos Live, in your product. 04 Sales gets the context Every question, already written down. One smooth journey The demo starts where the chat left off Nothing here shows on a generic chatbot bolted to a booking link — the three things they asked",
+   "depth": 1,
+   "nav_pos": 7,
+   "in_nav": true,
+   "rich": {
+    "charts": 10,
+    "tables": 0,
+    "images": 50,
+    "inputs": 3
+   },
+   "shot": "shots/products_website_qualifier.png",
+   "global": true,
+   "prior": 0.696,
+   "wow": 0.85,
+   "tags": [
+    "website qualifier",
+    "lead qualification",
+    "chat",
+    "conversion",
+    "pipeline",
+    "inbound",
+    "cualificar leads",
+    "demo"
+   ],
+   "desc": "Producto que chatea con el visitante, lo cualifica con tus criterios y abre una demo en vivo.",
+   "name": "Qualifier",
+   "wow_why": "Chat, cualificación y demo en un solo recorrido, 38% conversión",
+   "pitch": "Un solo recorrido en vez de cuatro herramientas: responde preguntas, cualifica y abre la demo. Se ve un 38% de conversión, 16% más de pipeline y ventas recibe todo el contexto."
+  },
+  {
+   "id": "/products/in-app-agent",
+   "url": "https://karumi.ai/products/in-app-agent",
+   "label": "/products/in-app-agent",
+   "title": "In-app Agent: It Shows Your Users How, in Their Own Account — Karumi",
+   "h1": "It doesn't tell them\nhow. It shows them",
+   "headings": [
+    "It doesn't tell them how. It shows them",
+    "They ask once. It does it with them",
+    "Not an article. The thing itself",
+    "They stall",
+    "It appears",
+    "It takes the screen",
+    "The task is done",
+    "Every other agent starts cold",
+    "Memory",
+    "CRM",
+    "Product analytics",
+    "What it can do"
+   ],
+   "text": "In-app Agent It doesn't tell them how. It shows them The agent takes the screen and does the task with your user, in their own account. Launch demo See pricing Agent 67% Fewer tickets 95% Less maintenance 5x More engagement than ChatGPT In their own account They ask once. It does it with them app.acme.io Acme Home Projects Reports Customers Settings Good morning, Sara Settings General Members Billing Security Team members3 + Invite member name@company.com Send invite AL alex@acme.com Pending invite Invited SM Sara Morales sara@acme.com Owner JT Jon Taylor jon@acme.com Admin PR Priya Rao priya@acme.com Member A Ask anything… How it works Not an article. The thing itself 01 They stall Repeated",
+   "depth": 1,
+   "nav_pos": 8,
+   "in_nav": true,
+   "rich": {
+    "charts": 7,
+    "tables": 0,
+    "images": 89,
+    "inputs": 3
+   },
+   "shot": "shots/products_in_app_agent.png",
+   "global": true,
+   "prior": 0.267,
+   "wow": 0.85,
+   "tags": [
+    "in-app agent",
+    "soporte",
+    "support",
+    "tickets",
+    "onboarding",
+    "self-service",
+    "guided tasks",
+    "product adoption"
+   ],
+   "desc": "Agente dentro del producto que toma la pantalla y hace la tarea junto al usuario en su propia cuenta.",
+   "name": "Agente in-app",
+   "wow_why": "El agente hace la tarea con el usuario en su cuenta",
+   "pitch": "No les explica cómo, se lo enseña: aparece cuando se atascan y hace la tarea con ellos en su cuenta. Resultado: 67% menos tickets y 5x más engagement que ChatGPT."
+  },
+  {
+   "id": "/demo",
+   "url": "https://karumi.ai/demo",
+   "label": "/demo",
+   "title": "Try a Live AI Demo Agent: Real Product Demo — Karumi",
+   "h1": "Try the AI demo agent live",
+   "headings": [
+    "Try the AI demo agent live",
+    "Trusted by leading teams",
+    "Results customers see",
+    "How it works",
+    "It learns your product",
+    "It demos every visitor",
+    "Your team gets every lead",
+    "What others say about Karumi",
+    "Frequently asked questions",
+    "What is an AI demo agent?",
+    "Is the demo above a recording?",
+    "How does it learn our product?"
+   ],
+   "text": "Try the AI demo agent live Karumi demoing Karumi: the real product, not a recording. Ask it anything. No mic needed No camera About 5 minutes Ask anything Trusted by leading teams “We’re getting engagement metrics that far surpass anything we’ve seen so far, well beyond what videos deliver. And we’re getting incredibly rich data on prospects that we simply never had before.” Xavier Vidal Sr. Director, Global Digital Marketing Results customers see 3.2x More meetings vs static assets 3.5x More signups 2.6x Trial-to-subscription 97% Less maintenance How it works 01 It learns your product Karumi maps your product and stays in sync as you ship. 02 It demos every visitor Live in your real product",
+   "depth": 1,
+   "nav_pos": 15,
+   "in_nav": true,
+   "rich": {
+    "charts": 5,
+    "tables": 0,
+    "images": 44,
+    "inputs": 3
+   },
+   "shot": "shots/demo.png",
+   "global": true,
+   "prior": 0.62,
+   "wow": 0.95,
+   "tags": [
+    "try demo",
+    "live demo",
+    "demo en vivo",
+    "prueba",
+    "testimonials",
+    "resultados",
+    "how it works",
+    "interactive"
+   ],
+   "desc": "Página para probar en directo el agente de demos, con testimonios y resultados de clientes.",
+   "name": "Probar demo",
+   "wow_why": "Puedes probar el agente en vivo, Karumi demoando Karumi",
+   "pitch": "Aquí puedes ver al agente demostrando Karumi en vivo: producto real, sin micro ni cámara, unos 5 minutos. Pregúntale lo que quieras."
+  },
+  {
+   "id": "/demos",
+   "url": "https://karumi.ai/demos",
+   "label": "/demos",
+   "title": "Product Demo Examples: Airtable, Zendesk & More — Karumi",
+   "h1": "See how Karumi demos the best products",
+   "headings": [
+    "See how Karumi demos the best products",
+    "Accelerate your growth with Agentic Demos"
+   ],
+   "text": "See how Karumi demos the best products Live AI demo agents on real accounts of Airtable, Zendesk, Remote and more. Pick one and ask it anything. Connected apps platform for teams to plan launches, manage requests, and run workflows on shared data. See the Airtable demo Time tracking and invoicing software for agencies and consultancies to log hours, watch project budgets, and bill clients. See the Harvest demo Customer service platform for support teams to manage tickets, route conversations, and resolve requests across channels. See the Zendesk demo Analytics and subscription platform for media and publishing companies to understand their audience and grow advertising and subscription reven",
+   "depth": 1,
+   "nav_pos": 16,
+   "in_nav": true,
+   "rich": {
+    "charts": 5,
+    "tables": 0,
+    "images": 41,
+    "inputs": 3
+   },
+   "shot": "shots/demos.png",
+   "global": true,
+   "prior": 0.62,
+   "wow": 0.85,
+   "tags": [
+    "demos",
+    "examples",
+    "ejemplos",
+    "airtable",
+    "zendesk",
+    "remote",
+    "casos reales",
+    "gallery"
+   ],
+   "desc": "Galería de demos en vivo con agentes sobre cuentas reales de productos conocidos.",
+   "name": "Galería demos",
+   "wow_why": "Demos en vivo de Airtable, Zendesk, Remote y más",
+   "pitch": "Aquí hay agentes demostrando en vivo cuentas reales de Airtable, Zendesk, Remote y más. Elige uno y pregúntale lo que quieras."
+  },
+  {
+   "id": "/research",
+   "url": "https://karumi.ai/research",
+   "label": "/research",
+   "title": "Research: Human–AI Interaction and LLMs — Karumi",
+   "h1": "Pioneering Research of Human interaction",
+   "headings": [
+    "Pioneering Research of Human interaction",
+    "An AI agent must communicate with the clarity, timing, and adaptability of a human expert.",
+    "Generic AI knowledge isn't enough.",
+    "Latest Publications",
+    "Reinforcement Learning in Frontier LLMs: From RLHF to Verifiable Rewards",
+    "Quantizating LLMs, How it works and what you should be concerned about",
+    "How Smaller Models Are Powering Agentic AI",
+    "Accelerate your growth with Agentic Demos"
+   ],
+   "text": "Pioneering Research of Human interaction We are inventing a new way for humans to interact with AI, pushing the limits of large language models. Interaction An AI agent must communicate with the clarity, timing, and adaptability of a human expert. Interacting naturally isn't just about language. It means knowing when to listen, when to explain, when to show, and how to adjust in real time based on who's on the other side of the call. Knowledge Generic AI knowledge isn't enough. An AI agent must deeply understand a product, not just its features, but how it solves real problems. Latest Publications Reinforcement Learning in Frontier LLMs: From RLHF to Verifiable Rewards May 20, 2026 Quantizat",
+   "depth": 1,
+   "nav_pos": 17,
+   "in_nav": true,
+   "rich": {
+    "charts": 7,
+    "tables": 0,
+    "images": 28,
+    "inputs": 3
+   },
+   "shot": "shots/research.png",
+   "global": true,
+   "prior": 0.62,
+   "wow": 0.35,
+   "tags": [
+    "research",
+    "investigación",
+    "llm",
+    "rlhf",
+    "human-ai interaction",
+    "quantization",
+    "ai",
+    "publicaciones"
+   ],
+   "desc": "Página de investigación sobre interacción humano-IA y LLMs, con publicaciones técnicas.",
+   "name": "Investigación",
+   "wow_why": "Contenido técnico de IA, poco relevante para compradores",
+   "pitch": "Karumi investiga cómo un agente puede comunicarse con la claridad y el timing de un experto humano. Publican sobre RLHF, recompensas verificables y cuantización."
+  },
+  {
+   "id": "/blog",
+   "url": "https://karumi.ai/blog",
+   "label": "/blog",
+   "title": "Karumi AI Blog | Product demo insights",
+   "h1": "Blog",
+   "headings": [
+    "Blog",
+    "Should you vibe code your own AI demo agent?",
+    "Product tours talk at buyers. Two-way demos talk with them",
+    "What is an inbound agent? Chatbots, voice agents and AI demo agents",
+    "How does Karumi work? AI demo automation, explained",
+    "Introducing the Product Brain: product knowledge for AI agents",
+    "What does Karumi send to HubSpot after a demo?",
+    "Can Karumi join a Google Meet, Zoom or Teams call?",
+    "Can the AI demo run in Spanish? Which languages does Karumi speak?",
+    "How does the AI demo agent learn my product?",
+    "Is it an AI demo live or a recording?",
+    "Karumi vs Hexus: what are the differences?"
+   ],
+   "text": "Blog What we learn as we build agentic demos for B2B SaaS teams All AI sales Software Demo Agents Product demo Product updates Should you vibe code your own AI demo agent? Oct 28, 2026 Product tours talk at buyers. Two-way demos talk with them Oct 27, 2026 What is an inbound agent? Chatbots, voice agents and AI demo agents Oct 26, 2026 How does Karumi work? AI demo automation, explained Oct 25, 2026 Introducing the Product Brain: product knowledge for AI agents Oct 21, 2026 What does Karumi send to HubSpot after a demo? Sep 24, 2026 Can Karumi join a Google Meet, Zoom or Teams call? Sep 10, 2026 Can the AI demo run in Spanish? Which languages does Karumi speak? Aug 27, 2026 How does the AI d",
+   "depth": 1,
+   "nav_pos": 18,
+   "in_nav": true,
+   "rich": {
+    "charts": 5,
+    "tables": 0,
+    "images": 98,
+    "inputs": 3
+   },
+   "shot": "shots/blog.png",
+   "global": true,
+   "prior": 0.62,
+   "wow": 0.3,
+   "tags": [
+    "blog",
+    "content",
+    "demo insights",
+    "inbound agent",
+    "ai sales",
+    "product tours",
+    "artículos",
+    "product updates"
+   ],
+   "desc": "Blog con artículos sobre demos agénticas, agentes inbound y novedades de producto.",
+   "name": "Blog",
+   "wow_why": "Listado de artículos, sin producto en acción",
+   "pitch": "En el blog comparten lo que aprenden construyendo demos agénticas, desde tours de producto frente a demos bidireccionales hasta el lanzamiento del Product Brain."
+  },
+  {
+   "id": "/about",
+   "url": "https://karumi.ai/about",
+   "label": "/about",
+   "title": "About Karumi — Fixing how software companies communicate",
+   "h1": "Fixing how software companies communicate",
+   "headings": [
+    "Fixing how software companies communicate",
+    "Our story",
+    "Operating principles",
+    "Join us",
+    "Latest Research Publications",
+    "Reinforcement Learning in Frontier LLMs: From RLHF to Verifiable Rewards",
+    "Quantizating LLMs, How it works and what you should be concerned about",
+    "How Smaller Models Are Powering Agentic AI",
+    "Accelerate your growth with Agentic Demos"
+   ],
+   "text": "Fixing how software companies communicate Karumi is an agentic platform that maps your entire product and business to create AI demo agents for marketing, sales, onboarding, enablement and support. We are powering the next generation of product experiences. Y Backed by Y Combinator How Karumi started Our story Toni and Pablo found that the bottleneck in their previous company was product communication. The team was developing so many great features, so fast, that no one in GTM could keep up. That meant losing a competitive edge against their competitors, and tons of inefficiencies: re-recording product videos, having engineers sit in demo calls, re-writing documentation, not being able to de",
+   "depth": 1,
+   "nav_pos": 19,
+   "in_nav": true,
+   "rich": {
+    "charts": 6,
+    "tables": 0,
+    "images": 31,
+    "inputs": 3
+   },
+   "shot": "shots/about.png",
+   "global": true,
+   "prior": 0.248,
+   "wow": 0.3,
+   "tags": [
+    "about",
+    "empresa",
+    "company",
+    "y combinator",
+    "founders",
+    "fundadores",
+    "misión",
+    "team"
+   ],
+   "desc": "Página sobre la empresa, su historia, principios y respaldo de Y Combinator.",
+   "name": "Sobre nosotros",
+   "wow_why": "Historia de empresa, poco impacto en demo",
+   "pitch": "Karumi, respaldada por Y Combinator, la fundaron Toni y Pablo para arreglar cómo se comunican las empresas de software con agentes que mapean tu producto y negocio."
+  },
+  {
+   "id": "/careers",
+   "url": "https://karumi.ai/careers",
+   "label": "/careers",
+   "title": "Careers at Karumi — Build a category-defining company",
+   "h1": "Build a category-defining company with us",
+   "headings": [
+    "Build a category-defining company with us",
+    "A focused team doing hard things, fast",
+    "Founders next to you",
+    "Ship in week one",
+    "New York, Madrid, San Francisco",
+    "People who can expand",
+    "You ship",
+    "You go deep on the problem",
+    "You own it",
+    "You leave your ego at the door",
+    "Operating principles",
+    "Join us"
+   ],
+   "text": "Careers Build a category-defining company with us Karumi is a team that moves at lightspeed, backed by Y Combinator, building AI agents that understand a software product and demo it live. We hire people who ship, go deep, and own what they build. See the open roles Write to the founders Y Backed by Y Combinator Life at Karumi A focused team doing hard things, fast Founders next to you No layers between you and the people who started the company. You hear the customer, argue the roadmap and make the call. Ship in week one Something of yours goes to production in your first week. We iterate in front of customers, not in a backlog. New York, Madrid, San Francisco Defining a category takes comm",
+   "depth": 1,
+   "nav_pos": 20,
+   "in_nav": true,
+   "rich": {
+    "charts": 7,
+    "tables": 0,
+    "images": 25,
+    "inputs": 2
+   },
+   "shot": "shots/careers.png",
+   "global": true,
+   "prior": 0.62,
+   "wow": 0.1,
+   "tags": [
+    "careers",
+    "empleo",
+    "jobs",
+    "hiring",
+    "equipo",
+    "y combinator",
+    "trabajo",
+    "vacantes"
+   ],
+   "desc": "Página de empleo con cultura del equipo y ubicaciones en Nueva York, Madrid y San Francisco.",
+   "name": "Empleo",
+   "wow_why": "Ofertas de empleo, irrelevante para la demo",
+   "pitch": "Karumi contrata gente que entrega rápido, con fundadores a tu lado y oficinas en Nueva York, Madrid y San Francisco."
+  },
+  {
+   "id": "/media-kit",
+   "url": "https://karumi.ai/media-kit",
+   "label": "/media-kit",
+   "title": "Karumi Media Kit: logos, founder photos and press contact",
+   "h1": "Karumi media kit",
+   "headings": [
+    "Karumi media kit",
+    "Company boilerplate",
+    "Fast facts",
+    "Logos",
+    "Founders",
+    "Pablo Omenaca",
+    "Toni Lopez",
+    "Questions from the press",
+    "Writing about Karumi?"
+   ],
+   "text": "Media kit Karumi media kit Everything you need to write about Karumi: our boilerplate, logos, founder photos and the facts behind them. Free to use in editorial coverage. Download all assets Contact press About Karumi Company boilerplate SHORT Copy Karumi is the agentic demo platform. An AI agent takes control of your real product in a live video call and runs a personalized demo, instantly, 24/7. MEDIUM Copy Karumi pioneered the agentic demo category. Instead of demo-request forms, recordings, or static tours, an AI agent takes control of your real product in a live video call, runs a personalized demo in the prospect’s language, answers questions, qualifies the lead, and syncs everything t",
+   "depth": 1,
+   "nav_pos": 21,
+   "in_nav": true,
+   "rich": {
+    "charts": 7,
+    "tables": 0,
+    "images": 30,
+    "inputs": 2
+   },
+   "shot": "shots/media_kit.png",
+   "global": true,
+   "prior": 0.248,
+   "wow": 0.1,
+   "tags": [
+    "media kit",
+    "prensa",
+    "press",
+    "logos",
+    "boilerplate",
+    "founders",
+    "brand assets",
+    "contacto"
+   ],
+   "desc": "Kit de prensa con descripción de la empresa, logos, fotos de fundadores y contacto.",
+   "name": "Kit prensa",
+   "wow_why": "Logos y contacto de prensa, sin producto",
+   "pitch": "Aquí están los logos, fotos de los fundadores y la descripción oficial de Karumi, libres para cobertura editorial."
+  },
+  {
+   "id": "/demos/airtable",
+   "url": "https://karumi.ai/demos/airtable",
+   "label": "/demos/airtable",
+   "title": "Airtable Live Demo: Try the AI Demo Agent — Karumi",
+   "h1": "See how Karumi demos Airtable",
+   "headings": [
+    "See how Karumi demos Airtable",
+    "More live demos",
+    "Trusted by leading teams",
+    "Results customers see",
+    "How it works",
+    "It learns your product",
+    "It demos every visitor",
+    "Your team gets every lead",
+    "What others say about Karumi",
+    "Frequently asked questions",
+    "Is this Airtable demo a recording?",
+    "Is this an official Airtable demo?"
+   ],
+   "text": "Demos Airtable See how Karumi demos Airtable Connected apps platform for teams to plan launches, manage requests, and run workflows on shared data. Karumi's AI agent demos it live on a real account: the real product, not a recording. Ask it anything. No mic needed No camera About 5 minutes Ask anything More live demos Harvest See the Harvest demo Zendesk See the Zendesk demo Piano See the Piano demo Oyster See the Oyster demo Remote See the Remote demo Sendcloud See the Sendcloud demo Freshworks See the Freshworks demo Contentful See the Contentful demo See all demos Trusted by leading teams “We’re getting engagement metrics that far surpass anything we’ve seen so far, well beyond what video",
+   "depth": 1,
+   "nav_pos": 22,
+   "in_nav": true,
+   "rich": {
+    "charts": 5,
+    "tables": 0,
+    "images": 60,
+    "inputs": 3
+   },
+   "shot": "shots/demos_airtable.png",
+   "global": true,
+   "prior": 0.62,
+   "wow": 0.9,
+   "tags": [
+    "airtable",
+    "live demo",
+    "workflows",
+    "no-code",
+    "project management",
+    "connected apps",
+    "demo en vivo",
+    "colaboración"
+   ],
+   "desc": "Demo en vivo del agente de Karumi sobre una cuenta real de Airtable.",
+   "name": "Demo Airtable",
+   "wow_why": "Agente demostrando Airtable real en una cuenta real",
+   "pitch": "Mira cómo el agente demuestra Airtable, la plataforma de apps conectadas para planificar lanzamientos y gestionar flujos de trabajo, sobre una cuenta real. Pregúntale lo que quieras."
+  },
+  {
+   "id": "/demos/harvest",
+   "url": "https://karumi.ai/demos/harvest",
+   "label": "/demos/harvest",
+   "title": "Harvest Live Demo: Try the AI Demo Agent — Karumi",
+   "h1": "See how Karumi demos Harvest",
+   "headings": [
+    "See how Karumi demos Harvest",
+    "More live demos",
+    "Trusted by leading teams",
+    "Results customers see",
+    "How it works",
+    "It learns your product",
+    "It demos every visitor",
+    "Your team gets every lead",
+    "What others say about Karumi",
+    "Frequently asked questions",
+    "Is this Harvest demo a recording?",
+    "Is this an official Harvest demo?"
+   ],
+   "text": "Demos Harvest See how Karumi demos Harvest Time tracking and invoicing software for agencies and consultancies to log hours, watch project budgets, and bill clients. Karumi's AI agent demos it live on a real account: the real product, not a recording. Ask it anything. No mic needed No camera About 5 minutes Ask anything More live demos Airtable See the Airtable demo Zendesk See the Zendesk demo Piano See the Piano demo Oyster See the Oyster demo Remote See the Remote demo Sendcloud See the Sendcloud demo Freshworks See the Freshworks demo Contentful See the Contentful demo See all demos Trusted by leading teams “We’re getting engagement metrics that far surpass anything we’ve seen so far, we",
+   "depth": 1,
+   "nav_pos": 23,
+   "in_nav": true,
+   "rich": {
+    "charts": 5,
+    "tables": 0,
+    "images": 60,
+    "inputs": 3
+   },
+   "shot": "shots/demos_harvest.png",
+   "global": true,
+   "prior": 0.62,
+   "wow": 0.85,
+   "tags": [
+    "harvest",
+    "time tracking",
+    "invoicing",
+    "facturación",
+    "agencies",
+    "consultoras",
+    "live demo",
+    "budgets"
+   ],
+   "desc": "Demo en vivo del agente de Karumi sobre una cuenta real de Harvest, software de control de horas y facturación.",
+   "name": "Demo Harvest",
+   "wow_why": "Agente demostrando Harvest real con tiempos y facturas",
+   "pitch": "Aquí el agente demuestra Harvest: registra horas, vigila presupuestos de proyecto y factura a clientes, todo en una cuenta real y en directo."
+  },
+  {
+   "id": "/demos/zendesk",
+   "url": "https://karumi.ai/demos/zendesk",
+   "label": "/demos/zendesk",
+   "title": "Zendesk Live Demo: Try the AI Demo Agent — Karumi",
+   "h1": "See how Karumi demos Zendesk",
+   "headings": [
+    "See how Karumi demos Zendesk",
+    "More live demos",
+    "Trusted by leading teams",
+    "Results customers see",
+    "How it works",
+    "It learns your product",
+    "It demos every visitor",
+    "Your team gets every lead",
+    "What others say about Karumi",
+    "Frequently asked questions",
+    "Is this Zendesk demo a recording?",
+    "Is this an official Zendesk demo?"
+   ],
+   "text": "Demos Zendesk See how Karumi demos Zendesk Customer service platform for support teams to manage tickets, route conversations, and resolve requests across channels. Karumi's AI agent demos it live on a real account: the real product, not a recording. Ask it anything. No mic needed No camera About 5 minutes Ask anything More live demos Airtable See the Airtable demo Harvest See the Harvest demo Piano See the Piano demo Oyster See the Oyster demo Remote See the Remote demo Sendcloud See the Sendcloud demo Freshworks See the Freshworks demo Contentful See the Contentful demo See all demos Trusted by leading teams “We’re getting engagement metrics that far surpass anything we’ve seen so far, wel",
+   "depth": 1,
+   "nav_pos": 24,
+   "in_nav": true,
+   "rich": {
+    "charts": 5,
+    "tables": 0,
+    "images": 60,
+    "inputs": 3
+   },
+   "shot": "shots/demos_zendesk.png",
+   "global": true,
+   "prior": 0.62,
+   "wow": 0.9,
+   "tags": [
+    "zendesk",
+    "customer support",
+    "soporte",
+    "tickets",
+    "helpdesk",
+    "omnichannel",
+    "live demo",
+    "atención al cliente"
+   ],
+   "desc": "Demo en vivo del agente de Karumi sobre una cuenta real de Zendesk, plataforma de atención al cliente.",
+   "name": "Demo Zendesk",
+   "wow_why": "Agente demostrando Zendesk real con tickets y canales",
+   "pitch": "Observa al agente recorrer Zendesk: gestiona tickets, enruta conversaciones y resuelve solicitudes entre canales, sobre una cuenta real."
+  },
+  {
+   "id": "/demos/piano",
+   "url": "https://karumi.ai/demos/piano",
+   "label": "/demos/piano",
+   "title": "Piano Live Demo: Try the AI Demo Agent — Karumi",
+   "h1": "See how Karumi demos Piano",
+   "headings": [
+    "See how Karumi demos Piano",
+    "More live demos",
+    "Trusted by leading teams",
+    "Results customers see",
+    "How it works",
+    "It learns your product",
+    "It demos every visitor",
+    "Your team gets every lead",
+    "What others say about Karumi",
+    "Frequently asked questions",
+    "Is this Piano demo a recording?",
+    "Is this an official Piano demo?"
+   ],
+   "text": "Demos Piano See how Karumi demos Piano Analytics and subscription platform for media and publishing companies to understand their audience and grow advertising and subscription revenue. Karumi's AI agent demos it live on a real account: the real product, not a recording. Ask it anything. No mic needed No camera About 5 minutes Ask anything More live demos Airtable See the Airtable demo Harvest See the Harvest demo Zendesk See the Zendesk demo Oyster See the Oyster demo Remote See the Remote demo Sendcloud See the Sendcloud demo Freshworks See the Freshworks demo Contentful See the Contentful demo See all demos Trusted by leading teams “We’re getting engagement metrics that far surpass anythi",
+   "depth": 1,
+   "nav_pos": 25,
+   "in_nav": true,
+   "rich": {
+    "charts": 5,
+    "tables": 0,
+    "images": 60,
+    "inputs": 3
+   },
+   "shot": "shots/demos_piano.png",
+   "global": true,
+   "prior": 0.62,
+   "wow": 0.8,
+   "tags": [
+    "piano",
+    "analytics",
+    "analítica",
+    "subscriptions",
+    "suscripciones",
+    "media",
+    "publishers",
+    "audience"
+   ],
+   "desc": "Demo en vivo del agente de Karumi sobre una cuenta real de Piano, plataforma de analítica y suscripciones para medios.",
+   "name": "Demo Piano",
+   "wow_why": "Agente demostrando analítica y suscripciones reales de Piano",
+   "pitch": "El agente demuestra Piano, que ayuda a medios y editoriales a entender su audiencia y crecer en publicidad y suscripciones, todo en una cuenta real."
+  }
+ ],
+ "edges": [
+  {
+   "from": "/",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/products/product-brain",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/",
+   "to": "/website-demo",
+   "label": "/website-demo"
+  },
+  {
+   "from": "/website-demo",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/website-demo",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/",
+   "to": "/sales",
+   "label": "/sales"
+  },
+  {
+   "from": "/sales",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/sales",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/sales",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/onboarding",
+   "label": "/onboarding"
+  },
+  {
+   "from": "/onboarding",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/onboarding",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/onboarding",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/onboarding",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/internal-enablement",
+   "label": "/internal-enablement"
+  },
+  {
+   "from": "/internal-enablement",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/internal-enablement",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/internal-enablement",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/internal-enablement",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/internal-enablement",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/products/videocall-agent",
+   "label": "/products/videocall-agent"
+  },
+  {
+   "from": "/products/videocall-agent",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/products/videocall-agent",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/products/videocall-agent",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/products/videocall-agent",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/products/videocall-agent",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/products/videocall-agent",
+   "to": "/internal-enablement",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/products/website-qualifier",
+   "label": "/products/website-qualifier"
+  },
+  {
+   "from": "/products/website-qualifier",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/products/website-qualifier",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/products/website-qualifier",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/products/website-qualifier",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/products/website-qualifier",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/products/website-qualifier",
+   "to": "/internal-enablement",
+   "label": ""
+  },
+  {
+   "from": "/products/website-qualifier",
+   "to": "/products/videocall-agent",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/products/in-app-agent",
+   "label": "/products/in-app-agent"
+  },
+  {
+   "from": "/products/in-app-agent",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/products/in-app-agent",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/products/in-app-agent",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/products/in-app-agent",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/products/in-app-agent",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/products/in-app-agent",
+   "to": "/internal-enablement",
+   "label": ""
+  },
+  {
+   "from": "/products/in-app-agent",
+   "to": "/products/videocall-agent",
+   "label": ""
+  },
+  {
+   "from": "/products/in-app-agent",
+   "to": "/products/website-qualifier",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/demo",
+   "label": "/demo"
+  },
+  {
+   "from": "/demo",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/demo",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/demo",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/demo",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/demo",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/demo",
+   "to": "/internal-enablement",
+   "label": ""
+  },
+  {
+   "from": "/demo",
+   "to": "/products/videocall-agent",
+   "label": ""
+  },
+  {
+   "from": "/demo",
+   "to": "/products/website-qualifier",
+   "label": ""
+  },
+  {
+   "from": "/demo",
+   "to": "/products/in-app-agent",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/demos",
+   "label": "/demos"
+  },
+  {
+   "from": "/demos",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/demos",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/demos",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/demos",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/demos",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/demos",
+   "to": "/internal-enablement",
+   "label": ""
+  },
+  {
+   "from": "/demos",
+   "to": "/products/videocall-agent",
+   "label": ""
+  },
+  {
+   "from": "/demos",
+   "to": "/products/website-qualifier",
+   "label": ""
+  },
+  {
+   "from": "/demos",
+   "to": "/products/in-app-agent",
+   "label": ""
+  },
+  {
+   "from": "/demos",
+   "to": "/demo",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/research",
+   "label": "/research"
+  },
+  {
+   "from": "/research",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/research",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/research",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/research",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/research",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/research",
+   "to": "/internal-enablement",
+   "label": ""
+  },
+  {
+   "from": "/research",
+   "to": "/products/videocall-agent",
+   "label": ""
+  },
+  {
+   "from": "/research",
+   "to": "/products/website-qualifier",
+   "label": ""
+  },
+  {
+   "from": "/research",
+   "to": "/products/in-app-agent",
+   "label": ""
+  },
+  {
+   "from": "/research",
+   "to": "/demo",
+   "label": ""
+  },
+  {
+   "from": "/research",
+   "to": "/demos",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/blog",
+   "label": "/blog"
+  },
+  {
+   "from": "/blog",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/blog",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/blog",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/blog",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/blog",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/blog",
+   "to": "/internal-enablement",
+   "label": ""
+  },
+  {
+   "from": "/blog",
+   "to": "/products/videocall-agent",
+   "label": ""
+  },
+  {
+   "from": "/blog",
+   "to": "/products/website-qualifier",
+   "label": ""
+  },
+  {
+   "from": "/blog",
+   "to": "/products/in-app-agent",
+   "label": ""
+  },
+  {
+   "from": "/blog",
+   "to": "/demo",
+   "label": ""
+  },
+  {
+   "from": "/blog",
+   "to": "/demos",
+   "label": ""
+  },
+  {
+   "from": "/blog",
+   "to": "/research",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/about",
+   "label": "/about"
+  },
+  {
+   "from": "/about",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/about",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/about",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/about",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/about",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/about",
+   "to": "/internal-enablement",
+   "label": ""
+  },
+  {
+   "from": "/about",
+   "to": "/products/videocall-agent",
+   "label": ""
+  },
+  {
+   "from": "/about",
+   "to": "/products/website-qualifier",
+   "label": ""
+  },
+  {
+   "from": "/about",
+   "to": "/products/in-app-agent",
+   "label": ""
+  },
+  {
+   "from": "/about",
+   "to": "/demo",
+   "label": ""
+  },
+  {
+   "from": "/about",
+   "to": "/demos",
+   "label": ""
+  },
+  {
+   "from": "/about",
+   "to": "/research",
+   "label": ""
+  },
+  {
+   "from": "/about",
+   "to": "/blog",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/careers",
+   "label": "/careers"
+  },
+  {
+   "from": "/careers",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/careers",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/careers",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/careers",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/careers",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/careers",
+   "to": "/internal-enablement",
+   "label": ""
+  },
+  {
+   "from": "/careers",
+   "to": "/products/videocall-agent",
+   "label": ""
+  },
+  {
+   "from": "/careers",
+   "to": "/products/website-qualifier",
+   "label": ""
+  },
+  {
+   "from": "/careers",
+   "to": "/products/in-app-agent",
+   "label": ""
+  },
+  {
+   "from": "/careers",
+   "to": "/demo",
+   "label": ""
+  },
+  {
+   "from": "/careers",
+   "to": "/demos",
+   "label": ""
+  },
+  {
+   "from": "/careers",
+   "to": "/research",
+   "label": ""
+  },
+  {
+   "from": "/careers",
+   "to": "/blog",
+   "label": ""
+  },
+  {
+   "from": "/careers",
+   "to": "/about",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/media-kit",
+   "label": "/media-kit"
+  },
+  {
+   "from": "/media-kit",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/media-kit",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/media-kit",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/media-kit",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/media-kit",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/media-kit",
+   "to": "/internal-enablement",
+   "label": ""
+  },
+  {
+   "from": "/media-kit",
+   "to": "/products/videocall-agent",
+   "label": ""
+  },
+  {
+   "from": "/media-kit",
+   "to": "/products/website-qualifier",
+   "label": ""
+  },
+  {
+   "from": "/media-kit",
+   "to": "/products/in-app-agent",
+   "label": ""
+  },
+  {
+   "from": "/media-kit",
+   "to": "/demo",
+   "label": ""
+  },
+  {
+   "from": "/media-kit",
+   "to": "/demos",
+   "label": ""
+  },
+  {
+   "from": "/media-kit",
+   "to": "/research",
+   "label": ""
+  },
+  {
+   "from": "/media-kit",
+   "to": "/blog",
+   "label": ""
+  },
+  {
+   "from": "/media-kit",
+   "to": "/about",
+   "label": ""
+  },
+  {
+   "from": "/media-kit",
+   "to": "/careers",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/demos/airtable",
+   "label": "/demos/airtable"
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/internal-enablement",
+   "label": ""
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/products/videocall-agent",
+   "label": ""
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/products/website-qualifier",
+   "label": ""
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/products/in-app-agent",
+   "label": ""
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/demo",
+   "label": ""
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/demos",
+   "label": ""
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/research",
+   "label": ""
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/blog",
+   "label": ""
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/about",
+   "label": ""
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/careers",
+   "label": ""
+  },
+  {
+   "from": "/demos/airtable",
+   "to": "/media-kit",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/demos/harvest",
+   "label": "/demos/harvest"
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/internal-enablement",
+   "label": ""
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/products/videocall-agent",
+   "label": ""
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/products/website-qualifier",
+   "label": ""
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/products/in-app-agent",
+   "label": ""
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/demo",
+   "label": ""
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/demos",
+   "label": ""
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/research",
+   "label": ""
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/blog",
+   "label": ""
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/about",
+   "label": ""
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/careers",
+   "label": ""
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/media-kit",
+   "label": ""
+  },
+  {
+   "from": "/demos/harvest",
+   "to": "/demos/airtable",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/demos/zendesk",
+   "label": "/demos/zendesk"
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/internal-enablement",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/products/videocall-agent",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/products/website-qualifier",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/products/in-app-agent",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/demo",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/demos",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/research",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/blog",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/about",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/careers",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/media-kit",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/demos/airtable",
+   "label": ""
+  },
+  {
+   "from": "/demos/zendesk",
+   "to": "/demos/harvest",
+   "label": ""
+  },
+  {
+   "from": "/",
+   "to": "/demos/piano",
+   "label": "/demos/piano"
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/products/product-brain",
+   "label": "New The Product Brain for AI agents: your product’s screens,"
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/",
+   "label": "Karumi home"
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/website-demo",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/sales",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/onboarding",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/internal-enablement",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/products/videocall-agent",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/products/website-qualifier",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/products/in-app-agent",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/demo",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/demos",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/research",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/blog",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/about",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/careers",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/media-kit",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/demos/airtable",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/demos/harvest",
+   "label": ""
+  },
+  {
+   "from": "/demos/piano",
+   "to": "/demos/zendesk",
+   "label": ""
+  }
+ ],
+ "meta": {
+  "name": "Karumi",
+  "summary": "Agente de IA que ejecuta tu producto real en directo para hacer demos, onboarding y soporte a visitantes, clientes y equipos de B2B SaaS.",
+  "opening": "¡Hola! Soy el guía de Karumi y puedo enseñarte cómo un agente demuestra un producto real en directo. ¿Qué te trae por aquí: marketing, ventas, onboarding o soporte?",
+  "options": [
+   "Soy de ventas y quiero liberar a mis SEs",
+   "Quiero convertir más visitantes de mi web",
+   "Busco mejorar el onboarding de mis usuarios",
+   "Quiero ver una demo en vivo de ejemplo",
+   "Vengo de Navattic, Storylane o Arcade"
+  ]
+ }
+}

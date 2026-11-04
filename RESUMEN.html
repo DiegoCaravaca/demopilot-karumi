@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DemoPilot · Resumen para el equipo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#0f172a; --mute:#64748b; --line:#e7e9ee; --bg:#f6f7f9; --brand:#4f46e5;
+          --prior:#6366f1; --wow:#f59e0b; --int:#10b981; --dist:#f43f5e; --rep:#94a3b8; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Inter, system-ui, sans-serif; background:var(--bg); color:var(--ink); line-height:1.6; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:860px; margin:0 auto; padding:48px 24px 80px; }
+  .kicker { font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--brand); }
+  h1 { font-size:40px; letter-spacing:-.03em; line-height:1.1; margin:6px 0 12px; }
+  .lead { font-size:18px; color:#334155; margin:0 0 28px; }
+  h2 { font-size:22px; letter-spacing:-.02em; margin:44px 0 12px; }
+  h3 { font-size:16px; margin:22px 0 6px; }
+  p { margin:0 0 12px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:16px; padding:20px 22px; margin:14px 0; }
+  code, .mono { font-family:"JetBrains Mono", ui-monospace, monospace; font-size:13px; }
+  code { background:#f1f5f9; padding:1px 6px; border-radius:6px; }
+  pre { background:#0f172a; color:#e2e8f0; padding:16px 18px; border-radius:12px; overflow-x:auto; font-size:13px; line-height:1.55; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th, td { text-align:left; padding:10px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--mute); }
+  td.num { text-align:right; font-family:"JetBrains Mono", monospace; white-space:nowrap; }
+  .sw { display:inline-block; width:10px; height:10px; border-radius:3px; margin-right:8px; vertical-align:0; }
+  .flow { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin:16px 0; }
+  .flow div { background:#fff; border:1px solid var(--line); border-radius:12px; padding:12px; font-size:13px; }
+  .flow b { display:block; font-size:14px; margin-bottom:2px; }
+  .flow .llm { border-color:#c7d2fe; background:#eef2ff; }
+  .bar { display:flex; height:14px; border-radius:7px; overflow:hidden; background:#f1f5f9; margin:10px 0 4px; }
+  .total { font-size:28px; font-weight:800; letter-spacing:-.02em; }
+  .pitch { counter-reset:p; }
+  .pitch .card { position:relative; padding-left:64px; }
+  .pitch .card::before { counter-increment:p; content:counter(p); position:absolute; left:20px; top:18px; width:30px; height:30px; border-radius:50%; background:var(--ink); color:#fff; display:grid; place-items:center; font-weight:700; }
+  .pitch .t { font-size:12px; color:var(--mute); font-weight:600; }
+  .say { font-size:15px; color:#1e293b; border-left:3px solid var(--brand); padding-left:12px; margin-top:6px; font-style:italic; }
+  ul { padding-left:20px; margin:6px 0 12px; } li { margin:3px 0; }
+  .note { font-size:13px; color:var(--mute); }
+  @media (max-width:640px) { .flow { grid-template-columns:1fr 1fr; } h1 { font-size:32px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">Karumi × Comillas · Track 2: ¿qué enseña primero?</div>
+  <h1>DemoPilot</h1>
+  <p class="lead">Un guía que entra en una web que no ha visto nunca, saca su mapa, decide qué enseñar y en qué orden según quién tiene delante, y lo explica con números.</p>
+
+  <h2>Qué hemos construido</h2>
+  <div class="flow">
+    <div><b>1 · Crawler</b>Recorre la web siguiendo enlaces y saca el grafo: pantallas, conexiones, profundidad y menú.</div>
+    <div class="llm"><b>2 · LLM (una vez)</b>Lee todas las pantallas y pone a cada una wow, temas, descripción y lo que diría un guía.</div>
+    <div class="llm"><b>3 · Chat (LLM)</b>Entiende al visitante: su objetivo, su feedback, lo que pide y sus preguntas.</div>
+    <div><b>4 · Planner</b>Decide la siguiente pantalla con una fórmula transparente. Instantáneo, sin LLM.</div>
+  </div>
+  <p><b>La idea en una frase:</b> <i>el LLM entiende, el algoritmo decide</i>. El LLM entiende las pantallas y al visitante. La decisión es una fórmula que se puede auditar, así que cada paso tiene un "por qué" con números.</p>
+  <p><b>No es específico de Karumi.</b> El mismo código funciona en cualquier web: lo probamos también con OrangeHRM (un software de RR. HH.) de forma 100% automática, y hasta detectó solo qué pantallas estaban vacías y no merecía la pena enseñar.</p>
+
+  <h2>De dónde salen los números</h2>
+  <p>Cada pantalla que aún no se ha enseñado recibe una puntuación:</p>
+  <pre>score = 0.35·fácil_de_encontrar + 0.30·wow + 0.45·encaje_contigo − 0.06·(saltos − 1) − 0.30·repetición</pre>
+  <p>La lista de <b>"Siguientes candidatos"</b> son las 5 pantallas no vistas con mayor score. Se recalcula después de cada paso y de cada 👍/👎, porque cambian tu posición, lo ya visto y lo que sabemos de ti. La barra de color muestra solo las tres partes positivas. El número de la derecha es el total, con las penalizaciones ya restadas.</p>
+
+  <div class="card">
+  <table>
+    <tr><th>Término</th><th>Qué mide</th><th>De dónde sale</th></tr>
+    <tr><td><span class="sw" style="background:var(--prior)"></span><b>Fácil de encontrar</b><br><span class="mono">peso 0.35</span></td>
+        <td>Lo que la empresa considera importante. Lo importante suele estar a mano.</td>
+        <td>Del <b>DOM</b>, sin LLM: pocos clics desde la portada, posición alta en el menú y enlazada desde toda la web suben; si parece una utilidad (ajustes, legal, empleo, login…) se multiplica por 0.4.</td></tr>
+    <tr><td><span class="sw" style="background:var(--wow)"></span><b>Impacto (wow)</b><br><span class="mono">peso 0.30</span></td>
+        <td>Cuánto impresiona enseñarla.</td>
+        <td>Del <b>LLM</b>, una sola vez al rastrear. Producto en acción, casos reales y resultados puntúan alto; páginas legales, de empleo o vacías, bajo.</td></tr>
+    <tr><td><span class="sw" style="background:var(--int)"></span><b>Encaje contigo</b><br><span class="mono">peso 0.45</span></td>
+        <td>Si encaja con lo que busca el visitante. Es el término que más pesa.</td>
+        <td>El chat convierte lo que dices en <b>temas con peso</b>, por ejemplo <code>ventas +1</code> o <code>soporte −1</code>. Se suman los temas que aparecen en la pantalla. Un 👍 sube los temas de esa pantalla y un 👎 los baja. Cada peso está limitado a ±2.</td></tr>
+    <tr><td><span class="sw" style="background:var(--dist)"></span><b>Distancia</b><br><span class="mono">−0.06 por salto extra</span></td>
+        <td>No saltar de punta a punta de la web.</td>
+        <td>El camino más corto en el grafo desde la pantalla actual.</td></tr>
+    <tr><td><span class="sw" style="background:var(--rep)"></span><b>Repetición</b><br><span class="mono">peso −0.30</span></td>
+        <td>No enseñar 4 cosas iguales seguidas.</td>
+        <td>El mayor parecido de temas (Jaccard) con alguna pantalla ya enseñada.</td></tr>
+  </table>
+  </div>
+
+  <h3>Ejemplo real: «Qualifier», con un visitante de ventas</h3>
+  <div class="card">
+    <div class="bar"><i style="width:24%;background:var(--prior)"></i><i style="width:26%;background:var(--wow)"></i><i style="width:25%;background:var(--int)"></i></div>
+    <table>
+      <tr><td><span class="sw" style="background:var(--prior)"></span>Fácil de encontrar · 0.35 × 0.70 (1 clic, nº 8 del menú, en toda la web)</td><td class="num">+0.24</td></tr>
+      <tr><td><span class="sw" style="background:var(--wow)"></span>Impacto · 0.30 × 0.85 («chat + cualificación + demo, 38% conversión»)</td><td class="num">+0.26</td></tr>
+      <tr><td><span class="sw" style="background:var(--int)"></span>Encaje · 0.45 × 0.56 (coincide con «demo», «pipeline»)</td><td class="num">+0.25</td></tr>
+      <tr><td><span class="sw" style="background:var(--dist)"></span>Distancia · 1 salto</td><td class="num">0.00</td></tr>
+      <tr><td><span class="sw" style="background:var(--rep)"></span>Repetición · 0.30 × 0.14 (se parece un poco a «Ventas»)</td><td class="num">−0.04</td></tr>
+      <tr><td><b>Total</b></td><td class="num total">0.71</td></tr>
+    </table>
+  </div>
+
+  <h3>Reglas que se aplican encima del score</h3>
+  <ul>
+    <li><b>Esenciales (core):</b> las 3 pantallas con mejor combinación de fácil de encontrar y wow (<code>0.6·fácil + 0.4·wow</code>). Se enseñan <i>siempre</i>. Son los puntos de arriba: "Esenciales ●●●".</li>
+    <li><b>Cobertura garantizada:</b> si se acaba el margen o lo que queda no aporta, se fuerzan los esenciales pendientes. En el chat salen con la etiqueta "esencial".</li>
+    <li><b>Filtro de impacto:</b> una pantalla con wow &lt; 0.4 (blog, empleo, legal) solo se enseña si encaja mucho contigo (≥ 0.8) o si la pides.</li>
+    <li><b>Fin automático:</b> el visitante no elige cuántos pasos. La demo termina cuando los esenciales están cubiertos y la mejor candidata baja de <b>0.55</b>, con un máximo de <b>7 pasos</b>, que caben en 3 minutos.</li>
+    <li><b>Lo que pides va primero:</b> "enséñame la demo de Zendesk" o un clic en el mapa salta directamente a esa pantalla, con la etiqueta "pedido por ti".</li>
+  </ul>
+
+  <h2>Pitch de 3 minutos</h2>
+  <div class="pitch">
+    <div class="card"><div class="t">0:00 – 0:30 · Qué hemos construido</div>
+      <div class="say">"DemoPilot entra en una web que no ha visto nunca, saca su mapa y decide qué enseñar primero a cada visitante. Y explica por qué, con números."</div></div>
+    <div class="card"><div class="t">0:30 – 1:45 · Demo en directo (karumi.ai)</div>
+      <ul>
+        <li>Pulsar el chip <i>"Soy de ventas y quiero liberar a mis SEs"</i>: va a Ventas. Señalar el desglose del score a la derecha.</li>
+        <li>Escribir <i>"sigue"</i> y luego <i>"¿y esto cuánto convierte?"</i>: responde con datos de la página.</li>
+        <li>Pulsar 👎 en una pantalla: el ranking de candidatos cambia en directo.</li>
+        <li>Activar <b>Auto</b>: recorre solo hasta cubrir los esenciales.</li>
+      </ul></div>
+    <div class="card"><div class="t">1:45 – 2:15 · Qué demuestra</div>
+      <div class="say">"Que lo importante de una web se puede deducir de su estructura, porque lo importante está a mano, y que basta con combinarlo con lo que quiere el visitante para hacer una demo personalizada. Funciona en cualquier web: Karumi y OrangeHRM con el mismo código."</div></div>
+    <div class="card"><div class="t">2:15 – 2:35 · Su punto más débil</div>
+      <div class="say">"Los pesos de la fórmula los hemos puesto a mano, no están aprendidos de demos reales. Y el crawler solo sigue enlaces: no abre modales ni rellena formularios."</div></div>
+    <div class="card"><div class="t">2:35 – 3:00 · Con una semana más</div>
+      <div class="say">"Aprender los pesos a partir de qué demos convierten, que es el puente con el Track 3. Explorar también botones y modales. Y un 'ir a' dentro de cada pantalla: no solo llegar a la página, sino señalar el elemento concreto."</div></div>
+  </div>
+
+  <h2>Cómo arrancarlo</h2>
+<pre>cd ~/Documentos/Hackathones/Karumi
+SITE=karumi LIVE=1 .venv/bin/uvicorn app:app --port 8000      # abrir http://localhost:8000
+
+# Otra web, mismo código (ya preparada):
+SITE=orangehrm_auto LIVE=1 .venv/bin/uvicorn app:app --port 8000
+
+# Plan B sin internet: capturas cacheadas
+SITE=karumi LIVE=0 .venv/bin/uvicorn app:app --port 8000
+
+# Web nueva: añadirla a sites.json y luego
+.venv/bin/python crawler.py &lt;site&gt; &amp;&amp; .venv/bin/python enrich.py &lt;site&gt;</pre>
+  <p class="note">El chat tarda unos 10 s por mensaje porque usa Claude Code en local. Con <code>ANTHROPIC_API_KEY</code> exportada se usa sola la API, que va más rápida. "sigue", "para" y "auto" son instantáneos porque no pasan por el LLM.</p>
+
+  <h2>Preguntas que nos pueden hacer</h2>
+  <ul>
+    <li><b>¿Por qué no deja que el LLM decida todo?</b> Porque sería lento, no se podría auditar y no daría la misma respuesta dos veces. Aquí cada decisión se explica término a término.</li>
+    <li><b>¿Y si la web es una SPA o tiene login?</b> El login se configura en <code>sites.json</code> (OrangeHRM lo tiene). Las SPA que usan <code>&lt;a href&gt;</code> funcionan; las que solo usan botones necesitarían la exploración por clics (lo de "una semana más").</li>
+    <li><b>¿Cómo sabéis que la demo es buena?</b> Garantiza la cobertura de los esenciales y adapta el resto al visitante. Medir si convierte es justo el siguiente paso, con el Track 3.</li>
+  </ul>
+</div>
+</body>
+</html>

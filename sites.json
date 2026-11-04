@@ -1,0 +1,33 @@
+{
+ "orangehrm": {
+  "start": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+  "login": {
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+   "fill": {
+    "input[name=username]": "Admin",
+    "input[name=password]": "admin123"
+   },
+   "submit": "button[type=submit]"
+  }
+ },
+ "books": {
+  "start": "https://books.toscrape.com/"
+ },
+ "karumi": {
+  "start": "https://karumi.ai/"
+ },
+ "orangehrm_auto": {
+  "start": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+  "login": {
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+   "fill": {
+    "input[name=username]": "Admin",
+    "input[name=password]": "admin123"
+   },
+   "submit": "button[type=submit]"
+  }
+ },
+ "karumi_clicks": {
+  "start": "https://karumi.ai/"
+ }
+}
